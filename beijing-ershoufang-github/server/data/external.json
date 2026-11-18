@@ -1,0 +1,197 @@
+{
+  "_readme": "外部补充数据。prevYear 用于同比（住建委月报口径·住宅）；lianjia 为住建委「存量房网上签约月统计·按经纪机构」中链家的月度签约套数，cityTotal 为同月全市网上签约总套数（市占率分母）；weekly 为凤凰网房产「凰家周刊」每周住宅网签套数（用于校验/替换房市儿周序列的错值）；monthlyTotal 为住建委月报「网上签约套数」总量口径。 annual 为住建委「近五年房屋网上签约统计」官方年度汇总（2020-2024，单位万套），用于长期趋势参照，不是逐日数据。",
+  "updatedAt": "2026-11-09T03:30:15.363Z",
+  "prevYear": {
+    "2025-05": {
+      "residential": 14277,
+      "source": "北京链家研究院（北京市住建委数据）"
+    },
+    "2025-06": {
+      "residential": 15139,
+      "source": "央广网 / 北京链家研究院"
+    },
+    "2025-07": {
+      "residential": 12784,
+      "source": "北京链家研究院（8月环比反推核对一致）"
+    },
+    "2025-08": {
+      "residential": 13331,
+      "source": "央广网 / 中原地产研究院"
+    },
+    "2025-09": {
+      "residential": 15843,
+      "source": "北京市住建委月报（媒体转载）"
+    },
+    "2025-10": {
+      "residential": 12087,
+      "source": "中房网 / 北京市住建委"
+    }
+  },
+  "lianjia": {
+    "2025-07": {
+      "count": 6041,
+      "cityTotal": 14526,
+      "source": "住建委月统计（Wayback 2025-08-08 快照）"
+    },
+    "2025-10": {
+      "count": 5772,
+      "cityTotal": 13595,
+      "source": "住建委月统计（房产数据统计页存档）"
+    },
+    "2026-04": {
+      "count": 8421,
+      "cityTotal": 19784,
+      "source": "住建委月统计（Wayback 2026-05-16 快照）"
+    },
+    "2026-06": {
+      "count": 8891,
+      "cityTotal": 18757,
+      "source": "住建委月统计（Wayback 2026-07-13 快照）"
+    },
+    "2026-09": {
+      "count": 8218,
+      "refund": 124,
+      "cityTotal": 17633,
+      "cityResidential": 15756,
+      "source": "住建委月统计（实时抓取）",
+      "capturedAt": "2026-10-22T22:22:53.492Z"
+    },
+    "2026-10": {
+      "count": 6613,
+      "refund": 137,
+      "cityTotal": 14499,
+      "cityResidential": 13081,
+      "source": "住建委月统计（实时抓取）",
+      "capturedAt": "2026-11-09T03:30:15.363Z"
+    }
+  },
+  "weekly": {
+    "2026-04-27": {
+      "residential": 4521,
+      "derived": true,
+      "source": "凰家周刊 2026-05-11 期：5/4–5/10 为 3436 套、环比 −24%，反推本周"
+    },
+    "2026-05-04": {
+      "residential": 3436,
+      "total": 3773,
+      "source": "凰家周刊 2026-05-11 期（5月4日至5月10日）"
+    },
+    "2026-05-11": {
+      "residential": 4169,
+      "total": 4717,
+      "source": "凰家周刊 2026-05-18 期（5月11日至5月17日）"
+    },
+    "2026-05-18": {
+      "residential": 4126,
+      "derived": true,
+      "source": "凰家周刊 2026-06-01 期：5/25–5/31 为 4385 套、环比 +6.28%，反推本周"
+    },
+    "2026-05-25": {
+      "residential": 4385,
+      "total": 4866,
+      "source": "凰家周刊 2026-06-01 期（5月25日至5月31日）"
+    },
+    "2026-10-12": {
+      "residential": 3502,
+      "total": 3876,
+      "source": "凰家周刊 2026-10-19 期（10月12日至10月18日）· 与房市儿周序列一致，用于校验"
+    }
+  },
+  "monthlyTotal": {
+    "2025-07": {
+      "total": 14526,
+      "residential": 12784,
+      "source": "住建委月统计（Wayback 2025-08-08 快照）"
+    },
+    "2025-10": {
+      "total": 13595,
+      "residential": 12087,
+      "source": "住建委月统计（房产数据统计页存档）"
+    },
+    "2026-04": {
+      "total": 19784,
+      "residential": 17893,
+      "source": "住建委月统计（Wayback 2026-05-16 快照）"
+    },
+    "2026-06": {
+      "total": 18757,
+      "residential": 16618,
+      "source": "住建委月统计（Wayback 2026-07-13 快照）"
+    },
+    "2026-09": {
+      "total": 17633,
+      "residential": 15756,
+      "source": "住建委月统计（实时抓取）"
+    }
+  },
+  "annual": {
+    "source": "北京市住建委 · 房产数据统计 · 近五年房屋网上签约统计（2020-2024）",
+    "sourceUrl": "https://zjw.beijing.gov.cn/bjjs/fdcjy/wqht/fcsjtj/index.shtml",
+    "unit": "万套 / 万平方米",
+    "note": "官方年度汇总，不是逐日序列，无法拆成日历；仅作为更长时间尺度的趋势参照。逐日日历在公开渠道只能取到最近约一年，此后由每日采集永久累积。",
+    "existingHome": [
+      {
+        "year": 2020,
+        "residential": 16.46,
+        "residentialArea": 1478.8,
+        "nonResidentialArea": 95.7
+      },
+      {
+        "year": 2021,
+        "residential": 19.11,
+        "residentialArea": 1730.4,
+        "nonResidentialArea": 113.7
+      },
+      {
+        "year": 2022,
+        "residential": 14.09,
+        "residentialArea": 1285,
+        "nonResidentialArea": 96.3
+      },
+      {
+        "year": 2023,
+        "residential": 15.32,
+        "residentialArea": 1375.8,
+        "nonResidentialArea": 125.2
+      },
+      {
+        "year": 2024,
+        "residential": 17.32,
+        "residentialArea": 1558.3,
+        "nonResidentialArea": 110
+      }
+    ],
+    "newHome": [
+      {
+        "year": 2020,
+        "residential": 6.81,
+        "residentialArea": 765.47,
+        "nonResidentialArea": 389.92
+      },
+      {
+        "year": 2021,
+        "residential": 9.07,
+        "residentialArea": 1036.48,
+        "nonResidentialArea": 430.44
+      },
+      {
+        "year": 2022,
+        "residential": 6.81,
+        "residentialArea": 784.14,
+        "nonResidentialArea": 368.02
+      },
+      {
+        "year": 2023,
+        "residential": 6.56,
+        "residentialArea": 748.69,
+        "nonResidentialArea": 434.01
+      },
+      {
+        "year": 2024,
+        "residential": 5.11,
+        "residentialArea": 600.9,
+        "nonResidentialArea": 423.88
+      }
+    ]
+  }
+}

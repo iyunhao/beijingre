@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#1b5cff" />
+<meta name="description" content="北京二手房（存量房）每日网签量统计：月度日历、成交套数走势、月度对比。数据来自北京市住房和城乡建设委员会。" />
+<title>北京二手房网签统计 · 每日成交数据</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231b5cff'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif'%3E京%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="./">
+      <span class="logo">京</span>
+      <span class="brand-txt">
+        <strong>北京二手房网签统计</strong>
+        <em>存量房 · 每日网签数据</em>
+      </span>
+    </a>
+    <div class="topbar-right">
+      <span class="chip" id="latestChip">数据加载中…</span>
+      <button class="icon-btn" id="themeBtn" aria-label="切换深浅色" title="切换深浅色">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4.2" />
+          <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap main">
+
+  <div class="metric-bar">
+    <div class="metric-tabs" id="metricTabs" role="tablist" aria-label="统计口径">
+      <button data-metric="total" role="tab" aria-selected="false">存量房 · 网上签约套数</button>
+      <button data-metric="residential" role="tab" aria-selected="true" class="on">存量房 · 住宅签约套数</button>
+      <button data-metric="qfXfTotal" role="tab" aria-selected="false">期房 / 现房 · 网上签约</button>
+      <button data-metric="qfXfResidential" role="tab" aria-selected="false">期房 / 现房 · 住宅签约</button>
+      <button data-metric="stockResidential" role="tab" aria-selected="false">可售期房 / 未签约现房 · 住宅套数</button>
+    </div>
+    <p class="metric-note" id="metricNote">全部存量房（含住宅、商业、办公等）网签口径。</p>
+  </div>
+
+  <div id="oldView">
+  <section class="kpis kpis-main" aria-label="核心指标">
+    <div class="kpi">
+      <span class="kpi-k">本月累计</span>
+      <span class="kpi-v" id="kpiTotal">—</span>
+      <span class="kpi-s" id="kpiTotalSub">套</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-k">最新一日</span>
+      <span class="kpi-v" id="kpiLatest">—</span>
+      <span class="kpi-s" id="kpiLatestSub">套</span>
+    </div>
+    <div class="kpi">
+      <span class="kpi-k">近 30 日累计</span>
+      <span class="kpi-v" id="kpiWin30">—</span>
+      <span class="kpi-s" id="kpiWin30Sub">套</span>
+    </div>
+  </section>
+
+  <div class="grid">
+
+    <section class="card cal-card">
+      <div class="card-head">
+        <div class="month-nav">
+          <button class="nav-btn" id="prevM" aria-label="上个月">‹</button>
+          <h2 id="monthTitle">—</h2>
+          <button class="nav-btn" id="nextM" aria-label="下个月">›</button>
+        </div>
+        <span class="head-hint">北京二手房月度成交明细</span>
+      </div>
+
+      <div class="cal-head" aria-hidden="true">
+        <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+
+      <div class="cal-foot">
+      <div class="legend">
+        <span class="lg"><i class="dot up"></i>上涨</span>
+        <span class="lg"><i class="dot down"></i>下跌</span>
+        <span class="lg"><i class="dot muted"></i>未披露</span>
+        <span class="lg"><i class="dot wk"></i>周末（单日 / 合计）</span>
+        <span class="lg"><i class="dot estg"></i>缺口回补</span>
+      </div>
+        <p class="cal-note" id="calNote"></p>
+      </div>
+    </section>
+
+    <div class="col-right">
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2>成交套数</h2>
+          <div class="tabs" id="spanTabs" role="tablist">
+            <button data-span="7" role="tab">近7日</button>
+            <button data-span="15" role="tab">近15日</button>
+            <button data-span="30" role="tab" class="on">近30日</button>
+            <button data-span="90" role="tab">近90日</button>
+          </div>
+        </div>
+
+        <div class="chart-kpis" id="chartKpis"></div>
+
+        <div class="chart-wrap">
+          <canvas id="chart"></canvas>
+          <div class="tip" id="tip" hidden></div>
+        </div>
+      </section>
+
+      <section class="card month-card">
+        <div class="card-head">
+          <h2>月度累计对比</h2>
+          <span class="head-hint" id="monthHint">—</span>
+        </div>
+        <div class="month-legend">
+          <span><i class="lg lg-cur"></i>今年</span>
+          <span><i class="lg lg-prev"></i>去年同期</span>
+          <span class="lg-note">柱上为当月套数 · 下方为同比</span>
+        </div>
+        <div class="chart-wrap small">
+          <canvas id="monthChart"></canvas>
+        </div>
+        <p class="chart-foot" id="monthFoot">蓝柱为今年、灰柱为去年同期，柱上数字均为当月住宅签约套数，下方百分比为同比。</p>
+      </section>
+
+      <section class="card lj-card">
+        <div class="card-head">
+          <h2>链家签约套数与市占率</h2>
+          <span class="head-hint" id="ljHint">—</span>
+        </div>
+        <div class="lj-sum" id="ljSum"></div>
+        <div class="chart-wrap small">
+          <canvas id="ljChart"></canvas>
+        </div>
+        <p class="chart-foot" id="ljFoot">柱：链家当月签约套数；橙线：市占率 = 链家签约套数 ÷ 全市网上签约总套数。</p>
+      </section>
+
+    </div>
+  </div>
+
+  <section class="card quality-card">
+    <div class="card-head">
+      <h2>数据质量与校验</h2>
+      <span class="head-hint">逐月与官方月报对账</span>
+    </div>
+    <div id="qualityPanel"></div>
+  </section>
+  </div><!-- /#oldView -->
+
+  <div id="newHomeView" hidden>
+    <section class="kpis" aria-label="期房现房核心指标">
+      <div class="kpi">
+        <span class="kpi-k">期房 · 最新一日</span>
+        <span class="kpi-v" id="nhKpiQf">—</span>
+        <span class="kpi-s" id="nhKpiQfSub">套</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">现房 · 最新一日</span>
+        <span class="kpi-v" id="nhKpiXf">—</span>
+        <span class="kpi-s" id="nhKpiXfSub">套</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">期房 + 现房</span>
+        <span class="kpi-v accent" id="nhKpiSum">—</span>
+        <span class="kpi-s" id="nhKpiSumSub">套</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">已采集单日</span>
+        <span class="kpi-v" id="nhKpiDays">—</span>
+        <span class="kpi-s" id="nhKpiDaysSub">天</span>
+      </div>
+    </section>
+
+    <section class="card nh-cal-section">
+      <div class="card-head">
+        <div class="month-nav">
+          <button class="nav-btn" id="nhPrevM" aria-label="上个月">‹</button>
+          <h2 id="nhMonthTitle">—</h2>
+          <button class="nav-btn" id="nhNextM" aria-label="下个月">›</button>
+        </div>
+        <div class="nh-cal-tools">
+          <label class="nh-jump">跳到有数据的月份
+            <select id="nhMonthJump" aria-label="跳转到有采集数据的月份"></select>
+          </label>
+          <span class="head-hint" id="nhCalRange">—</span>
+        </div>
+      </div>
+
+      <div class="nh-cals">
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-qf"></i>期房</h3>
+            <span class="nh-cal-sum" id="nhQfSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="nhQfGrid"></div>
+          <p class="nh-cal-foot" id="nhQfFoot"></p>
+        </div>
+
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-xf"></i>现房</h3>
+            <span class="nh-cal-sum" id="nhXfSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="nhXfGrid"></div>
+          <p class="nh-cal-foot" id="nhXfFoot"></p>
+        </div>
+
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-sum"></i>总计<span class="nh-cal-sub">期房 + 现房</span></h3>
+            <span class="nh-cal-sum" id="nhSumSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="nhSumGrid"></div>
+          <p class="nh-cal-foot" id="nhSumFoot"></p>
+        </div>
+      </div>
+
+      <div class="nh-cal-bottom">
+        <div class="legend">
+          <span class="lg"><i class="dot up"></i>较上一采集日涨</span>
+          <span class="lg"><i class="dot down"></i>较上一采集日降</span>
+          <span class="lg"><i class="dot nh-live"></i>实时抓取</span>
+          <span class="lg"><i class="dot nh-archive"></i>存档锚点</span>
+          <span class="lg"><i class="dot muted"></i>未采集（非 0）</span>
+        </div>
+        <p class="cal-note" id="nhCalNote"></p>
+      </div>
+      <div class="nh-cal-warn">
+        住建委只公示<strong>最新一天</strong>，历史逐日值无法回补。日历里<strong>只有已采集到的日期显示数字</strong>，空白格代表「未采集」，不是 0；三张日历右下角的「合计」只是本月已采集这几天的加总，<strong>不等于整月网签量</strong>，不能与存量房的月累计直接对比。期房 / 现房的所有展示值均为当日官方实际值，无推算、无插值。
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card nh-chart-card">
+        <div class="card-head">
+          <h2>期房 / 现房 · 已采集单日</h2>
+          <span class="head-hint" id="nhHint">—</span>
+        </div>
+        <div class="month-legend">
+          <span><i class="lg nh-qf"></i>期房</span>
+          <span><i class="lg nh-xf"></i>现房</span>
+          <span class="lg-note" id="nhLegendNote">柱上数字为当日套数</span>
+        </div>
+        <div class="chart-wrap nh-wrap">
+          <canvas id="nhChart"></canvas>
+        </div>
+        <p class="chart-foot" id="nhFoot">日期不连续：住建委只公示最新一天，历史逐日值无法回补；图中为网页存档锚点与每日直采累积值，仅代表当日实际签约量，不代表期间累计。</p>
+      </section>
+
+      <section class="card nh-table-card">
+        <div class="card-head">
+          <h2>采集明细</h2>
+          <span class="head-hint">按日期倒序</span>
+        </div>
+        <div class="nh-table-wrap" id="nhTable"></div>
+        <p class="chart-foot">「存档锚点」来自网页存档 / 住建委历史页面快照，日期零散；「实时抓取」为本服务每日自动采集，逐日累积。</p>
+      </section>
+    </div>
+
+    <section class="card nh-note-card">
+      <h2>为什么没有完整历史曲线</h2>
+      <p>住建委「房地产数据主题服务」页只公示<strong>最新一天</strong>的期房 / 现房网上签约数据，历史上的逐日查询接口（<code>popup_everyday_all.asp</code> / <code>popup_everyday_ys.asp</code>）已下线且无存档，因此不存在可程序化回补的连续历史日序列。本服务从当前版本起<strong>每天自动采集并逐日累积</strong>，曲线会随时间自然变长；已能找到的零散存档锚点单独标注，不与直采数据混算。</p>
+    </section>
+  </div><!-- /#newHomeView -->
+
+  <div id="stockView" hidden>
+    <section class="kpis" aria-label="库存住宅核心指标">
+      <div class="kpi">
+        <span class="kpi-k">可售期房 · 住宅套数</span>
+        <span class="kpi-v" id="stKpiQf">—</span>
+        <span class="kpi-s" id="stKpiQfSub">套</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">未签约现房 · 住宅套数</span>
+        <span class="kpi-v" id="stKpiXf">—</span>
+        <span class="kpi-s" id="stKpiXfSub">套</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">两项相加</span>
+        <span class="kpi-v accent" id="stKpiSum">—</span>
+        <span class="kpi-s" id="stKpiSumSub">套 · 仅作观察</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-k">已采集日期</span>
+        <span class="kpi-v" id="stKpiDays">—</span>
+        <span class="kpi-s" id="stKpiDaysSub">天</span>
+      </div>
+    </section>
+
+    <section class="card nh-cal-section">
+      <div class="card-head">
+        <div class="month-nav">
+          <button class="nav-btn" id="stPrevM" aria-label="上个月">‹</button>
+          <h2 id="stMonthTitle">—</h2>
+          <button class="nav-btn" id="stNextM" aria-label="下个月">›</button>
+        </div>
+        <div class="nh-cal-tools">
+          <label class="nh-jump">跳到有数据的月份
+            <select id="stMonthJump" aria-label="跳转到有库存采集数据的月份"></select>
+          </label>
+          <span class="head-hint" id="stCalRange">—</span>
+        </div>
+      </div>
+
+      <div class="nh-cals">
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-qf"></i>可售期房统计<span class="nh-cal-sub">其中住宅套数</span></h3>
+            <span class="nh-cal-sum" id="stQfSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="stQfGrid"></div>
+          <p class="nh-cal-foot" id="stQfFoot"></p>
+        </div>
+
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-xf"></i>未签约现房统计<span class="nh-cal-sub">其中住宅套数</span></h3>
+            <span class="nh-cal-sum" id="stXfSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="stXfGrid"></div>
+          <p class="nh-cal-foot" id="stXfFoot"></p>
+        </div>
+
+        <div class="nh-cal">
+          <div class="nh-cal-head">
+            <h3><i class="lg nh-sum"></i>两项相加<span class="nh-cal-sub">可售期房 + 未签约现房</span></h3>
+            <span class="nh-cal-sum" id="stSumSum">—</span>
+          </div>
+          <div class="cal-head" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="stSumGrid"></div>
+          <p class="nh-cal-foot" id="stSumFoot"></p>
+        </div>
+      </div>
+
+      <div class="nh-cal-bottom">
+        <div class="legend">
+          <span class="lg"><i class="dot up"></i>较上一采集日增加</span>
+          <span class="lg"><i class="dot down"></i>较上一采集日减少</span>
+          <span class="lg"><i class="dot nh-live"></i>官方页实时抓取</span>
+          <span class="lg"><i class="dot nh-archive"></i>网页存档锚点</span>
+          <span class="lg"><i class="dot muted"></i>未采集（非 0）</span>
+        </div>
+        <p class="cal-note" id="stCalNote"></p>
+      </div>
+      <div class="nh-cal-warn">
+        这是<strong>库存存量</strong>口径（某日市场上还剩多少套住宅），不是当日网签成交量，不能与前面几个 tab 的成交数相加或对比。住建委只公示<strong>当前快照</strong>，历史逐日值无法回补：日历里<strong>只有已采集到的日期显示数字</strong>，空白格 = 未采集（不是 0）；右下角「合计」只是本月已采集这几天的加总，<strong>不是月末库存</strong>。2020 年以来的零散存档锚点来自住建委官方页面的网页存档，按页面自报的「截止日期」落位，均标注为「网页存档锚点」。
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card nh-chart-card">
+        <div class="card-head">
+          <h2>可售期房 / 未签约现房 · 住宅套数</h2>
+          <span class="head-hint" id="stHint">—</span>
+        </div>
+        <div class="month-legend">
+          <span><i class="lg nh-qf"></i>可售期房 · 住宅套数</span>
+          <span><i class="lg nh-xf"></i>未签约现房 · 住宅套数</span>
+          <span class="lg-note">柱上数字为当日库存套数</span>
+        </div>
+        <div class="chart-wrap nh-wrap">
+          <canvas id="stChart"></canvas>
+        </div>
+        <p class="chart-foot" id="stFoot">日期不连续：住建委只公示当前快照，历史逐日值无法回补；图中为网页存档锚点与每日直采累积值，每个点代表当日实际库存，不能相加当作期间累计。</p>
+      </section>
+
+      <section class="card nh-table-card">
+        <div class="card-head">
+          <h2>采集明细</h2>
+          <span class="head-hint">按日期倒序</span>
+        </div>
+        <div class="nh-table-wrap" id="stTable"></div>
+        <p class="chart-foot">「网页存档锚点」为住建委官方页面的历史快照（2020 年起，日期零散）；「官方页实时抓取」为本服务上线后每日自动采集、逐日累积。</p>
+      </section>
+    </div>
+
+    <section class="card nh-note-card">
+      <h2>这个 tab 的数据从哪来</h2>
+      <p>取自北京市住建委「房地产数据主题服务」与「房产数据统计」页的两张表：<strong>可售期房统计 → 其中住宅套数</strong>、<strong>未签约现房统计 → 其中住宅套数</strong>，并按页面标注的<strong>截止日期</strong>逐日归档。这两张表是<strong>存量</strong>统计，与「期房 / 现房 · 网上签约」tab 的<strong>当日成交</strong>是两回事。官方页只保留当前快照，没有可程序化查询的历史逐日接口；本站从当前版本起<strong>每天自动采集并永久累积</strong>，时间点会越来越密。已有的 2020 年起网页存档锚点单独标注，绝不插值、绝不用日均凑数。</p>
+    </section>
+  </div><!-- /#stockView -->
+
+  <section class="card annual-card">
+    <div class="card-head">
+      <h2>更长时间尺度 · 住建委近五年年度数据</h2>
+      <span class="head-hint" id="annualHint">2020–2024 · 单位 万套</span>
+    </div>
+    <div id="annualPanel"></div>
+    <p class="chart-foot" id="annualFoot">来源：北京市住建委「房产数据统计 · 近五年房屋网上签约统计」。这是<strong>官方年度汇总</strong>，不是逐日序列，无法拆成日历；逐日日历在公开渠道只能取到最近约一年。本站已改为<strong>永久累积、只增不删</strong>，日序列会随时间自然变长。</p>
+  </section>
+
+  <section class="card verify-card">
+    <div class="card-head">
+      <h2>独立数据校验报告</h2>
+      <span class="head-hint">重新抓取权威源站逐条比对 · npm run verify</span>
+    </div>
+    <div id="verifyPanel"></div>
+  </section>
+
+  <section class="notes">
+    <h3>数据说明</h3>
+    <ul>
+      <li><strong>五个视图</strong>：前两个为存量房口径——<b>网上签约套数</b>（全部存量房，含住宅、商业、办公等）与<b>住宅签约套数</b>（只含住宅），住建委月报同月同时公布这两个口径；第三、四个为<b>期房 / 现房</b>的网上签约套数与住宅签约套数（当日成交），各有「期房、现房、总计」<b>三张月历</b>；第五个为<b>可售期房 / 未签约现房 · 其中住宅套数</b>（库存存量），各有两张官方统计日历及一张相加日历。</li>
+      <li><strong>库存 tab 与成交 tab 不能混算</strong>：「可售期房统计 → 其中住宅套数」与「未签约现房统计 → 其中住宅套数」是<strong>某日市场上剩余的住宅库存</strong>（存量），而「期房 / 现房 · 网上签约」是<strong>当日成交</strong>（流量）。官方页只公示当前快照，按页面自报的<strong>截止日期</strong>逐日归档；本站每天自动采集、永久累积，并把 2020 年以来的网页存档稀疏锚点单独标注为「网页存档锚点」。日历空白 = 未采集（不是 0），不插值、不用日均凑数。</li>
+      <li><strong>更长的数据与「只增不删」</strong>：公开渠道可程序化获取的存量房<strong>连续逐日</strong>序列只有「最近一年」的滚动窗口；房市儿 <code>/get_all</code> 声称有 2015 年至今，但被微信「提取码」表单拦住、不提供数据接口，住建委历史逐日 ASP 接口也已下线。因此<strong>无法诚实回补更早的连续日历</strong>。本站已建立 <code>history-archive.json</code> 永久保护存档：每次重建先把全部历史日吸收进 append-only 文件，再把滚动窗口滑走的老日期原样带回、冻结数值，<strong>历史数据只增不删、时间轴会随时间自然变长</strong>。更长时间尺度则提供住建委「近五年房屋网上签约统计」的 2020–2024 <strong>官方年度汇总</strong>（见下方卡片），如实标注为年度值、不伪装成逐日数据；新 tab 的库存锚点也已回溯到 2020 年。</li>
+      <li><strong>数据来源</strong>：北京市住房和城乡建设委员会 · 存量房网上签约统计、房地产数据主题服务（官方公示页面）；存量房历史日序列、周合计、月合计取自北京房市儿（同口径转载），服务端每日抓取并累积入库。</li>
+      <li><strong>本月累计</strong>：有官方月报时以官方月报为准，否则为当月逐日加总。</li>
+      <li><strong>周末：有单日实值就单列，没有才显示合计</strong>：周六、周日只要都有确知单日值（住建委官方逐日统计表、每日官方直采，或由「周合计 − 工作日合计 − 另一侧实值」精确反推），日历就<strong>各占一格、各自显示当日实值并各自计算涨跌</strong>。只有两天单日值都不可确知时，才合并成一格显示「周六+周日合计」。合计仍是一等数据：官方逐日表覆盖期由两天实值相加，更早月份由周合计精确反推，源站整段缺失的周为估算值，鼠标悬停会标注来源与可信等级。半对周末（只披露了一天）按同一口径处理：已披露的一侧单列显示实值，另一侧显示「–」待披露，绝不拿合计或推算值冒充。</li>
+      <li><strong>默认口径与官方逐日表一致</strong>：默认视图为<b>住宅签约套数</b>，即住建委月报与官方逐日表所用的口径；「网上签约套数」为按当月住宅占比换算的口径，可一键切换。总量口径的月度折算差额只摊到工作日，<b>不落到周末</b>，避免月末恰逢周末时把「周六+周日合计」整体抬高或压低。</li>
+      <li><strong>内部拆分只在无单日值时使用</strong>：为了让月度合计、走势图与官方月报闭合，服务端对<strong>单日值不可确知的周末</strong>仍会在内部把合计拆到两天参与加总（仅在计算层使用）；该拆分是近似值，界面上一律隐藏，只显示两天合计。有官方逐日实值的周末直接展示真值，不存在内部拆分。新增周末日由每日采集直接写入官方直采存档，此后永远是实际值。</li>
+      <li><strong>期房 / 现房数据</strong>：取自住建委「房地产数据主题服务」页的当日两张表（网上签约套数 / 住宅套数）。该页<strong>只公示最新一天</strong>，历史逐日查询接口已下线且无存档，因此不存在可回补的连续历史曲线；本站从当前版本起每日自动采集、逐日累积，并把能找到的零散网页存档锚点单独标注。<strong>日期不连续，图中数值只代表当日实际签约量，不能相加当作期间累计。</strong></li>
+      <li><strong>三张日历</strong>：期房 / 现房两个视图各有「期房、现房、总计（期房+现房）」三张月历，共用一个月份导航，并可用下拉框直接跳到有采集数据的月份。日历严格只显示<strong>已采集到的单日官方实际值</strong>，不插值、不按日均凑数：空白格 = 未采集（不是 0），右下角合计 = 本月已采集这几天的加总，<b>不是整月网签量</b>。「较上一采集日」只在同月存在两个及以上采集日时才计算，避免拿相隔数月的两个日子做无意义对比。</li>
+      <li><strong>100% 核对范围</strong>：<code>npm run verify</code> 会重新抓取住建委与北京房市儿原始页面，独立核对 8 项硬约束（工作日单日值、官方直采日、逐日住宅/总量月合计、官方月报锚点表、历史周末两天合计逐周反推、期房/现房当日值、数值合法性）。结果写入 <code>server/data/verification.json</code>，通过 <code>/api/verification</code> 与页面下方「独立数据校验报告」展示。<b>能 100% 确证的数字都在报告里逐条列明</b>；公开渠道根本不存在的数字（单日值不可确知的历史周末各自的单日值、源站整段缺口回补、期房/现房历史逐日值）一律标注为「不可确知」并如实披露，绝不冒充精确值。</li>
+      <li><strong>周合计校验</strong>：源站个别周的周合计是错的（如 2026-05-18 那周报 8,570，而同周工作日合计仅 3,801）。凡「周合计 − 工作日」超出全局中位数 3 倍的周，一律判定为不可信、改由官方月报锚定，不再把畸高残差当成周末值。</li>
+      <li><strong>缺口回补</strong>：2026-04-24 ~ 05-15 源站整段无数据（共 12 个工作日）。该区间用凤凰网房产「凰家周刊」公布的每周住宅网签套数作为各周强弱，在官方月报总量约束下按「星期效应 + 周末占比」回补，日历中标注为<b>缺口回补</b>，属估算值。</li>
+      <li><strong>涨 / 降</strong>：该日相对上一个有数据日的套数变化。</li>
+      <li><strong>缺口日期</strong>：源站确实缺失、又无法回补的日期显示「–」，不做插值、不按日均凑数。</li>
+      <li><strong>校准原则</strong>：月度差额只摊到推算值上，工作日原值一律不改动；有官方月报的月份，本站逐日合计与官方偏差均为 0.00%。</li>
+      <li><strong>每日刷新</strong>：服务端每 30 分钟抓一次，另在北京时间 09:05 / 22:05 强制刷新；数据超过 1 小时未更新时，任何接口请求都会触发后台补采（应对平台冷启动 / 进程回收）。网页每 10 分钟自动重拉一次数据。官方页约延迟 1~2 天发布，故最新日期通常滞后于当天。</li>
+      <li><strong>同比</strong>：去年同月的住宅网签量取自住建委月报（媒体/机构转载，见 <code>server/data/external.json</code> 逐条出处）。当月未结束只显示累计值，不做同比。</li>
+      <li><strong>链家签约</strong>：来自住建委「存量房网上签约月统计 · 按经纪机构」。市占率 = 链家签约套数 ÷ 全市网上签约总套数（同口径相除）。官方只保留最新一个月，历史月份由网页存档补齐，此后按月累积。</li>
+    </ul>
+    <p class="disclaimer">本页面为个人数据观察工具，数据版权归原始发布机构所有，不构成任何投资建议。</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>数据来源：北京市住房和城乡建设委员会</span>
+    <span id="updatedAt">—</span>
+  </div>
+</footer>
+
+<script src="data/snapshot.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,688 @@
+{
+  "generatedAt": "2026-11-18T23:05:18.805Z",
+  "verdict": "PASS",
+  "summary": {
+    "hardChecks": 8,
+    "passed": 8,
+    "failed": 0,
+    "unavailable": 0,
+    "disclosed": 2
+  },
+  "sources": {
+    "fangshi52": "http://www.beijingfangshi.com/wx_w52_pc.html",
+    "zjw": "http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=53610668",
+    "topic": "http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=307749",
+    "fetchedBytes": {
+      "fangshi52": 17648,
+      "zjw": 7950,
+      "topic": 61452
+    },
+    "fetchErrors": [],
+    "officialLatestDay": {
+      "date": "2026-11-18",
+      "total": 759,
+      "totalArea": 65035.41,
+      "residential": 687,
+      "residentialArea": 62004
+    },
+    "officialLatestMonth": {
+      "year": 2026,
+      "month": 10,
+      "total": 14499,
+      "totalArea": 1218049.51,
+      "residential": 13081,
+      "residentialArea": 1145372.43
+    },
+    "newHomeLatest": {
+      "date": "2026-11-18",
+      "qf": {
+        "total": 117,
+        "totalArea": 8418.04,
+        "residential": 69,
+        "residentialArea": 7645.2
+      },
+      "xf": {
+        "total": 115,
+        "totalArea": 8410.86,
+        "residential": 53,
+        "residentialArea": 6329.74
+      }
+    }
+  },
+  "checks": [
+    {
+      "id": "workday_exact",
+      "label": "工作日单日值 vs 官方逐日表 / 源站原始日序列",
+      "status": "PASS",
+      "numbers": {
+        "rawDays": 245,
+        "compared": 245,
+        "mismatch": 0,
+        "absent": 0,
+        "officialOverrides": 3
+      },
+      "detail": "245 个工作日逐条核对通过：其中 3 天以住建委官方逐日表为准（房市儿原值有误：2026-02-16 1→0、2026-04-28 553→751、2026-04-29 583→820），其余与源站原始日序列完全一致"
+    },
+    {
+      "id": "official_daily",
+      "label": "官方最新一日 vs 住建委公示页",
+      "status": "PASS",
+      "numbers": {
+        "date": "2026-11-18",
+        "officialResidential": 687,
+        "officialTotal": 759,
+        "storedResidential": 687,
+        "storedTotal": 759
+      },
+      "detail": "2026-11-18 住宅 687 / 总套数 759 与官方页面一致"
+    },
+    {
+      "id": "monthly_residential",
+      "label": "逐日住宅合计 vs 官方月报",
+      "status": "PASS",
+      "numbers": {
+        "months": 10,
+        "exact": 10,
+        "off": 0,
+        "maxAbsDiff": 0
+      },
+      "detail": "10 个有官方月报的月份逐日合计与官方值完全相等（偏差 0）"
+    },
+    {
+      "id": "monthly_total",
+      "label": "逐日网上签约总套数 vs 官方月报",
+      "status": "PASS",
+      "numbers": {
+        "month": "2026-10",
+        "official": 14499,
+        "storedSum": 14499,
+        "diff": 0,
+        "days": 31
+      },
+      "detail": "2026-10 总套数 14499 逐日加总分毫不差"
+    },
+    {
+      "id": "new_homes",
+      "label": "期房/现房当日值 vs 住建委 + 内部一致性",
+      "status": "PASS",
+      "numbers": {
+        "records": 19,
+        "invalid": 0,
+        "liveDate": "2026-11-18",
+        "liveMatch": true
+      },
+      "detail": "2026-11-18 四个字段与官方页面一致；19 条记录住宅套数均不大于总套数"
+    },
+    {
+      "id": "invariants",
+      "label": "数值与结构不变量",
+      "status": "PASS",
+      "numbers": {
+        "days": 374,
+        "range": "2025-11-10 ~ 2026-11-18",
+        "negative": [],
+        "totalLtResidential": [],
+        "nonInteger": [],
+        "missingQuality": [],
+        "duplicate": 0
+      },
+      "detail": "无负数、无非法小数、总套数≥住宅套数、无重复日期、每日均有质量标记"
+    },
+    {
+      "id": "official_month_anchor",
+      "label": "官方月报锚点表 vs 住建委实时月报 / 历史存档",
+      "status": "PASS",
+      "numbers": {
+        "liveMonth": "2026-10",
+        "liveResidential": 13081,
+        "liveTotal": 14499,
+        "archivedMonthsChecked": 4,
+        "mismatch": 0
+      },
+      "detail": "2026-10 住宅 13081 / 总量 14499 与本地锚点完全一致；另核对 4 个历史月报存档，0 处不一致"
+    },
+    {
+      "id": "weekend_residual",
+      "label": "历史周末两天合计 vs 源站周合计精确反推",
+      "status": "PASS",
+      "numbers": {
+        "weeks": 43,
+        "verified": 43,
+        "skipped": 0,
+        "mismatch": 0
+      },
+      "detail": "43 个源站自洽周逐一验证：「本地周六+周日合计」=「源站周合计 − 源站工作日之和」，全部相等（偏差 0）；0 周因源站缺工作日值跳过；口径微差 / 错值 / 缺口周另在第 9 项如实披露"
+    },
+    {
+      "id": "weekly_consistency",
+      "label": "源站周序列 vs 官方月序列口径差",
+      "status": "DISCLOSED",
+      "numbers": {
+        "weeks": 48,
+        "exact": 43,
+        "sourceConflict": 0,
+        "excludedOrGap": 5,
+        "maxConflictPct": 0
+      },
+      "detail": "周序列与月序列完全自洽"
+    },
+    {
+      "id": "limits",
+      "label": "不可确知项（不参与「准确」宣称）",
+      "status": "DISCLOSED",
+      "numbers": {
+        "estimatedDays": 0,
+        "historicalWeekendDays": 14,
+        "newHomeSparseDays": 19
+      },
+      "detail": "历史周六/周日各自的单日值在公开渠道不可确知（界面已合并为「两天合计」，不展示推测单日值）；0 天为源站整段缺口回补，标注为估算；期房/现房历史仅 19 个零散存档日，无连续日序列。"
+    }
+  ],
+  "monthlyReconciliation": [
+    {
+      "month": "2026-01",
+      "official": 15082,
+      "sum": 15082,
+      "diff": 0,
+      "days": 31
+    },
+    {
+      "month": "2026-02",
+      "official": 8129,
+      "sum": 8129,
+      "diff": 0,
+      "days": 28
+    },
+    {
+      "month": "2026-03",
+      "official": 19886,
+      "sum": 19886,
+      "diff": 0,
+      "days": 31
+    },
+    {
+      "month": "2026-04",
+      "official": 17893,
+      "sum": 17893,
+      "diff": 0,
+      "days": 30
+    },
+    {
+      "month": "2026-05",
+      "official": 15974,
+      "sum": 15974,
+      "diff": 0,
+      "days": 31
+    },
+    {
+      "month": "2026-06",
+      "official": 16618,
+      "sum": 16618,
+      "diff": 0,
+      "days": 30
+    },
+    {
+      "month": "2026-07",
+      "official": 14037,
+      "sum": 14037,
+      "diff": 0,
+      "days": 31
+    },
+    {
+      "month": "2026-08",
+      "official": 13853,
+      "sum": 13853,
+      "diff": 0,
+      "days": 31
+    },
+    {
+      "month": "2026-09",
+      "official": 15756,
+      "sum": 15756,
+      "diff": 0,
+      "days": 30
+    },
+    {
+      "month": "2026-10",
+      "official": 13081,
+      "sum": 13081,
+      "diff": 0,
+      "days": 31
+    }
+  ],
+  "weeklyConsistency": [
+    {
+      "week": "2025-11-16",
+      "end": "2025-11-16",
+      "sourceWeekly": 117,
+      "storedSum": 98,
+      "diff": -19,
+      "pct": 16.24,
+      "kind": "excluded_or_gap"
+    },
+    {
+      "week": "2025-11-17",
+      "end": "2025-11-23",
+      "sourceWeekly": 3386,
+      "storedSum": 3386,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-11-24",
+      "end": "2025-11-30",
+      "sourceWeekly": 4157,
+      "storedSum": 4157,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-12-01",
+      "end": "2025-12-07",
+      "sourceWeekly": 2948,
+      "storedSum": 2948,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-12-08",
+      "end": "2025-12-14",
+      "sourceWeekly": 3555,
+      "storedSum": 3555,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-12-15",
+      "end": "2025-12-21",
+      "sourceWeekly": 3741,
+      "storedSum": 3741,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-12-22",
+      "end": "2025-12-28",
+      "sourceWeekly": 4065,
+      "storedSum": 4065,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2025-12-29",
+      "end": "2026-01-04",
+      "sourceWeekly": 3389,
+      "storedSum": 3389,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-01-05",
+      "end": "2026-01-11",
+      "sourceWeekly": 2910,
+      "storedSum": 2910,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-01-12",
+      "end": "2026-01-18",
+      "sourceWeekly": 3606,
+      "storedSum": 3606,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-01-19",
+      "end": "2026-01-25",
+      "sourceWeekly": 3906,
+      "storedSum": 3906,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-01-26",
+      "end": "2026-02-01",
+      "sourceWeekly": 4244,
+      "storedSum": 4244,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-02-02",
+      "end": "2026-02-08",
+      "sourceWeekly": 3309,
+      "storedSum": 3309,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-02-09",
+      "end": "2026-02-15",
+      "sourceWeekly": 2346,
+      "storedSum": 2346,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-02-16",
+      "end": "2026-02-22",
+      "sourceWeekly": 2,
+      "storedSum": 1,
+      "diff": -1,
+      "pct": 50,
+      "kind": "excluded_or_gap"
+    },
+    {
+      "week": "2026-02-23",
+      "end": "2026-03-01",
+      "sourceWeekly": 2460,
+      "storedSum": 2460,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-03-02",
+      "end": "2026-03-08",
+      "sourceWeekly": 2980,
+      "storedSum": 2980,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-03-09",
+      "end": "2026-03-15",
+      "sourceWeekly": 4141,
+      "storedSum": 4141,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-03-16",
+      "end": "2026-03-22",
+      "sourceWeekly": 4973,
+      "storedSum": 4973,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-03-23",
+      "end": "2026-03-29",
+      "sourceWeekly": 5207,
+      "storedSum": 5207,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-03-30",
+      "end": "2026-04-05",
+      "sourceWeekly": 4541,
+      "storedSum": 4541,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-04-06",
+      "end": "2026-04-12",
+      "sourceWeekly": 3492,
+      "storedSum": 3492,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-04-13",
+      "end": "2026-04-19",
+      "sourceWeekly": 4521,
+      "storedSum": 4521,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-05-18",
+      "end": "2026-05-24",
+      "sourceWeekly": 8570,
+      "storedSum": 4126,
+      "diff": -4444,
+      "pct": 51.86,
+      "kind": "excluded_or_gap"
+    },
+    {
+      "week": "2026-05-25",
+      "end": "2026-05-31",
+      "sourceWeekly": 3739,
+      "storedSum": 4385,
+      "diff": 646,
+      "pct": 17.28,
+      "kind": "excluded_or_gap"
+    },
+    {
+      "week": "2026-06-01",
+      "end": "2026-06-07",
+      "sourceWeekly": 3264,
+      "storedSum": 3264,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-06-08",
+      "end": "2026-06-14",
+      "sourceWeekly": 3641,
+      "storedSum": 3641,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-06-15",
+      "end": "2026-06-21",
+      "sourceWeekly": 3176,
+      "storedSum": 3176,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-06-22",
+      "end": "2026-06-28",
+      "sourceWeekly": 4209,
+      "storedSum": 4209,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-06-29",
+      "end": "2026-07-05",
+      "sourceWeekly": 3721,
+      "storedSum": 3721,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-07-06",
+      "end": "2026-07-12",
+      "sourceWeekly": 2956,
+      "storedSum": 2956,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-07-13",
+      "end": "2026-07-19",
+      "sourceWeekly": 3193,
+      "storedSum": 3193,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-07-20",
+      "end": "2026-07-26",
+      "sourceWeekly": 4115,
+      "storedSum": 3206,
+      "diff": -909,
+      "pct": 22.09,
+      "kind": "excluded_or_gap"
+    },
+    {
+      "week": "2026-07-27",
+      "end": "2026-08-02",
+      "sourceWeekly": 3486,
+      "storedSum": 3486,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-08-03",
+      "end": "2026-08-09",
+      "sourceWeekly": 2823,
+      "storedSum": 2823,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-08-10",
+      "end": "2026-08-16",
+      "sourceWeekly": 3104,
+      "storedSum": 3104,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-08-17",
+      "end": "2026-08-23",
+      "sourceWeekly": 3387,
+      "storedSum": 3387,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-08-24",
+      "end": "2026-08-30",
+      "sourceWeekly": 3490,
+      "storedSum": 3490,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-08-31",
+      "end": "2026-09-06",
+      "sourceWeekly": 3300,
+      "storedSum": 3300,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-09-07",
+      "end": "2026-09-13",
+      "sourceWeekly": 3561,
+      "storedSum": 3561,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-09-14",
+      "end": "2026-09-20",
+      "sourceWeekly": 4257,
+      "storedSum": 4257,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-09-21",
+      "end": "2026-09-27",
+      "sourceWeekly": 3021,
+      "storedSum": 3021,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-09-28",
+      "end": "2026-10-04",
+      "sourceWeekly": 2529,
+      "storedSum": 2529,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-10-05",
+      "end": "2026-10-11",
+      "sourceWeekly": 2098,
+      "storedSum": 2098,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-10-12",
+      "end": "2026-10-18",
+      "sourceWeekly": 3502,
+      "storedSum": 3502,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-10-19",
+      "end": "2026-10-25",
+      "sourceWeekly": 3760,
+      "storedSum": 3760,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-10-26",
+      "end": "2026-11-01",
+      "sourceWeekly": 3735,
+      "storedSum": 3735,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    },
+    {
+      "week": "2026-11-02",
+      "end": "2026-11-08",
+      "sourceWeekly": 3267,
+      "storedSum": 3267,
+      "diff": 0,
+      "pct": 0,
+      "kind": "exact"
+    }
+  ],
+  "statement": "可 100% 确证（8 项硬校验）：工作日单日值、官方直采日、有官方月报月份的逐日合计（住宅与总量两个口径）、官方月报锚点表、历史周末「两天合计」的逐周反推、期房/现房当日值、全部数值合法性。不可确证：历史周六/周日各自单日值（公开渠道根本不提供，界面只显示两天合计）、源站整段缺口回补日（估算）、期房/现房历史逐日值（无连续公开源）。源站周序列与月序列本身存在小幅口径差时，以住建委官方月报为准并做极小校准，校准幅度在本页逐周披露。"
+}

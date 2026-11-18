@@ -1,0 +1,18 @@
+{
+  "name": "beijing-ershoufang",
+  "version": "1.0.0",
+  "private": true,
+  "description": "北京二手房网签统计（网页版）",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/src/index.js",
+    "fetch": "node server/scripts/fetch-once.js",
+    "verify": "node server/scripts/verify-data.js",
+    "seed": "node server/scripts/build-seed.js",
+    "web:data": "node server/scripts/build-web-data.js",
+    "capture": "node server/scripts/daily-capture.js",
+    "static:build": "node server/scripts/build-static.js"
+  }
+}

@@ -1,0 +1,4845 @@
+{
+  "days": {
+    "2025-11-10": {
+      "date": "2025-11-10",
+      "residential": 635,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 711,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-11": {
+      "date": "2025-11-11",
+      "residential": 577,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 646,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-12": {
+      "date": "2025-11-12",
+      "residential": 664,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 743,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-13": {
+      "date": "2025-11-13",
+      "residential": 664,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 743,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-14": {
+      "date": "2025-11-14",
+      "residential": 686,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 768,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-17": {
+      "date": "2025-11-17",
+      "residential": 643,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 720,
+      "totalQuality": "derived"
+    },
+    "2025-11-18": {
+      "date": "2025-11-18",
+      "residential": 634,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 710,
+      "totalQuality": "derived"
+    },
+    "2025-11-19": {
+      "date": "2025-11-19",
+      "residential": 517,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 579,
+      "totalQuality": "derived"
+    },
+    "2025-11-20": {
+      "date": "2025-11-20",
+      "residential": 592,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 663,
+      "totalQuality": "derived"
+    },
+    "2025-11-21": {
+      "date": "2025-11-21",
+      "residential": 677,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 758,
+      "totalQuality": "derived"
+    },
+    "2025-11-24": {
+      "date": "2025-11-24",
+      "residential": 699,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 782,
+      "totalQuality": "derived"
+    },
+    "2025-11-25": {
+      "date": "2025-11-25",
+      "residential": 595,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 666,
+      "totalQuality": "derived"
+    },
+    "2025-11-26": {
+      "date": "2025-11-26",
+      "residential": 707,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 791,
+      "totalQuality": "derived"
+    },
+    "2025-11-27": {
+      "date": "2025-11-27",
+      "residential": 697,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 780,
+      "totalQuality": "derived"
+    },
+    "2025-11-28": {
+      "date": "2025-11-28",
+      "residential": 812,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 906,
+      "totalQuality": "derived"
+    },
+    "2025-12-01": {
+      "date": "2025-12-01",
+      "residential": 452,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 506,
+      "totalQuality": "derived"
+    },
+    "2025-12-02": {
+      "date": "2025-12-02",
+      "residential": 452,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 506,
+      "totalQuality": "derived"
+    },
+    "2025-12-03": {
+      "date": "2025-12-03",
+      "residential": 569,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 637,
+      "totalQuality": "derived"
+    },
+    "2025-12-04": {
+      "date": "2025-12-04",
+      "residential": 571,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 639,
+      "totalQuality": "derived"
+    },
+    "2025-12-05": {
+      "date": "2025-12-05",
+      "residential": 614,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 687,
+      "totalQuality": "derived"
+    },
+    "2025-12-08": {
+      "date": "2025-12-08",
+      "residential": 679,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 760,
+      "totalQuality": "derived"
+    },
+    "2025-12-09": {
+      "date": "2025-12-09",
+      "residential": 549,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 614,
+      "totalQuality": "derived"
+    },
+    "2025-12-10": {
+      "date": "2025-12-10",
+      "residential": 685,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 767,
+      "totalQuality": "derived"
+    },
+    "2025-12-11": {
+      "date": "2025-12-11",
+      "residential": 682,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 763,
+      "totalQuality": "derived"
+    },
+    "2025-12-12": {
+      "date": "2025-12-12",
+      "residential": 644,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 721,
+      "totalQuality": "derived"
+    },
+    "2025-12-15": {
+      "date": "2025-12-15",
+      "residential": 632,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 707,
+      "totalQuality": "derived"
+    },
+    "2025-12-16": {
+      "date": "2025-12-16",
+      "residential": 686,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 768,
+      "totalQuality": "derived"
+    },
+    "2025-12-17": {
+      "date": "2025-12-17",
+      "residential": 690,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 772,
+      "totalQuality": "derived"
+    },
+    "2025-12-18": {
+      "date": "2025-12-18",
+      "residential": 665,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 744,
+      "totalQuality": "derived"
+    },
+    "2025-12-19": {
+      "date": "2025-12-19",
+      "residential": 665,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 744,
+      "totalQuality": "derived"
+    },
+    "2025-12-22": {
+      "date": "2025-12-22",
+      "residential": 659,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 738,
+      "totalQuality": "derived"
+    },
+    "2025-12-23": {
+      "date": "2025-12-23",
+      "residential": 664,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 743,
+      "totalQuality": "derived"
+    },
+    "2025-12-24": {
+      "date": "2025-12-24",
+      "residential": 699,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 782,
+      "totalQuality": "derived"
+    },
+    "2025-12-25": {
+      "date": "2025-12-25",
+      "residential": 784,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 877,
+      "totalQuality": "derived"
+    },
+    "2025-12-26": {
+      "date": "2025-12-26",
+      "residential": 802,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 898,
+      "totalQuality": "derived"
+    },
+    "2025-12-29": {
+      "date": "2025-12-29",
+      "residential": 884,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 989,
+      "totalQuality": "derived"
+    },
+    "2025-12-30": {
+      "date": "2025-12-30",
+      "residential": 954,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 1068,
+      "totalQuality": "derived"
+    },
+    "2025-12-31": {
+      "date": "2025-12-31",
+      "residential": 1034,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily"
+      ],
+      "total": 1159,
+      "totalQuality": "derived"
+    },
+    "2026-01-01": {
+      "date": "2026-01-01",
+      "residential": 21,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 24,
+      "totalQuality": "derived"
+    },
+    "2026-01-02": {
+      "date": "2026-01-02",
+      "residential": 27,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 30,
+      "totalQuality": "derived"
+    },
+    "2026-01-05": {
+      "date": "2026-01-05",
+      "residential": 484,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 542,
+      "totalQuality": "derived"
+    },
+    "2026-01-06": {
+      "date": "2026-01-06",
+      "residential": 478,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 535,
+      "totalQuality": "derived"
+    },
+    "2026-01-07": {
+      "date": "2026-01-07",
+      "residential": 535,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 599,
+      "totalQuality": "derived"
+    },
+    "2026-01-08": {
+      "date": "2026-01-08",
+      "residential": 559,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 626,
+      "totalQuality": "derived"
+    },
+    "2026-01-09": {
+      "date": "2026-01-09",
+      "residential": 606,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 678,
+      "totalQuality": "derived"
+    },
+    "2026-01-12": {
+      "date": "2026-01-12",
+      "residential": 637,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 713,
+      "totalQuality": "derived"
+    },
+    "2026-01-13": {
+      "date": "2026-01-13",
+      "residential": 579,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 648,
+      "totalQuality": "derived"
+    },
+    "2026-01-14": {
+      "date": "2026-01-14",
+      "residential": 677,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 758,
+      "totalQuality": "derived"
+    },
+    "2026-01-15": {
+      "date": "2026-01-15",
+      "residential": 656,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 734,
+      "totalQuality": "derived"
+    },
+    "2026-01-16": {
+      "date": "2026-01-16",
+      "residential": 724,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 810,
+      "totalQuality": "derived"
+    },
+    "2026-01-19": {
+      "date": "2026-01-19",
+      "residential": 767,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 858,
+      "totalQuality": "derived"
+    },
+    "2026-01-20": {
+      "date": "2026-01-20",
+      "residential": 622,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 696,
+      "totalQuality": "derived"
+    },
+    "2026-01-21": {
+      "date": "2026-01-21",
+      "residential": 726,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 812,
+      "totalQuality": "derived"
+    },
+    "2026-01-22": {
+      "date": "2026-01-22",
+      "residential": 744,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 833,
+      "totalQuality": "derived"
+    },
+    "2026-01-23": {
+      "date": "2026-01-23",
+      "residential": 717,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 802,
+      "totalQuality": "derived"
+    },
+    "2026-01-26": {
+      "date": "2026-01-26",
+      "residential": 743,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 832,
+      "totalQuality": "derived"
+    },
+    "2026-01-27": {
+      "date": "2026-01-27",
+      "residential": 684,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 765,
+      "totalQuality": "derived"
+    },
+    "2026-01-28": {
+      "date": "2026-01-28",
+      "residential": 678,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 759,
+      "totalQuality": "derived"
+    },
+    "2026-01-29": {
+      "date": "2026-01-29",
+      "residential": 740,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 828,
+      "totalQuality": "derived"
+    },
+    "2026-01-30": {
+      "date": "2026-01-30",
+      "residential": 868,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 972,
+      "totalQuality": "derived"
+    },
+    "2026-02-02": {
+      "date": "2026-02-02",
+      "residential": 586,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 656,
+      "totalQuality": "derived"
+    },
+    "2026-02-03": {
+      "date": "2026-02-03",
+      "residential": 537,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 601,
+      "totalQuality": "derived"
+    },
+    "2026-02-04": {
+      "date": "2026-02-04",
+      "residential": 559,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 626,
+      "totalQuality": "derived"
+    },
+    "2026-02-05": {
+      "date": "2026-02-05",
+      "residential": 625,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 699,
+      "totalQuality": "derived"
+    },
+    "2026-02-06": {
+      "date": "2026-02-06",
+      "residential": 666,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 745,
+      "totalQuality": "derived"
+    },
+    "2026-02-09": {
+      "date": "2026-02-09",
+      "residential": 659,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 738,
+      "totalQuality": "derived"
+    },
+    "2026-02-10": {
+      "date": "2026-02-10",
+      "residential": 589,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 659,
+      "totalQuality": "derived"
+    },
+    "2026-02-11": {
+      "date": "2026-02-11",
+      "residential": 543,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 608,
+      "totalQuality": "derived"
+    },
+    "2026-02-12": {
+      "date": "2026-02-12",
+      "residential": 238,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 266,
+      "totalQuality": "derived"
+    },
+    "2026-02-13": {
+      "date": "2026-02-13",
+      "residential": 195,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 218,
+      "totalQuality": "derived"
+    },
+    "2026-02-16": {
+      "date": "2026-02-16",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived"
+    },
+    "2026-02-17": {
+      "date": "2026-02-17",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived"
+    },
+    "2026-02-18": {
+      "date": "2026-02-18",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived"
+    },
+    "2026-02-19": {
+      "date": "2026-02-19",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived"
+    },
+    "2026-02-20": {
+      "date": "2026-02-20",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived"
+    },
+    "2026-02-23": {
+      "date": "2026-02-23",
+      "residential": 4,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 4,
+      "totalQuality": "derived"
+    },
+    "2026-02-24": {
+      "date": "2026-02-24",
+      "residential": 204,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 228,
+      "totalQuality": "derived"
+    },
+    "2026-02-25": {
+      "date": "2026-02-25",
+      "residential": 369,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 413,
+      "totalQuality": "derived"
+    },
+    "2026-02-26": {
+      "date": "2026-02-26",
+      "residential": 495,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 554,
+      "totalQuality": "derived"
+    },
+    "2026-02-27": {
+      "date": "2026-02-27",
+      "residential": 634,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 711,
+      "totalQuality": "derived"
+    },
+    "2026-03-02": {
+      "date": "2026-03-02",
+      "residential": 479,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 536,
+      "totalQuality": "derived"
+    },
+    "2026-03-03": {
+      "date": "2026-03-03",
+      "residential": 455,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 509,
+      "totalQuality": "derived"
+    },
+    "2026-03-04": {
+      "date": "2026-03-04",
+      "residential": 516,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 577,
+      "totalQuality": "derived"
+    },
+    "2026-03-05": {
+      "date": "2026-03-05",
+      "residential": 584,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 654,
+      "totalQuality": "derived"
+    },
+    "2026-03-06": {
+      "date": "2026-03-06",
+      "residential": 669,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 749,
+      "totalQuality": "derived"
+    },
+    "2026-03-09": {
+      "date": "2026-03-09",
+      "residential": 712,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 797,
+      "totalQuality": "derived"
+    },
+    "2026-03-10": {
+      "date": "2026-03-10",
+      "residential": 657,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 735,
+      "totalQuality": "derived"
+    },
+    "2026-03-11": {
+      "date": "2026-03-11",
+      "residential": 751,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 840,
+      "totalQuality": "derived"
+    },
+    "2026-03-12": {
+      "date": "2026-03-12",
+      "residential": 816,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 913,
+      "totalQuality": "derived"
+    },
+    "2026-03-13": {
+      "date": "2026-03-13",
+      "residential": 844,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 945,
+      "totalQuality": "derived"
+    },
+    "2026-03-16": {
+      "date": "2026-03-16",
+      "residential": 835,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 934,
+      "totalQuality": "derived"
+    },
+    "2026-03-17": {
+      "date": "2026-03-17",
+      "residential": 825,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 923,
+      "totalQuality": "derived"
+    },
+    "2026-03-18": {
+      "date": "2026-03-18",
+      "residential": 914,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1023,
+      "totalQuality": "derived"
+    },
+    "2026-03-19": {
+      "date": "2026-03-19",
+      "residential": 916,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1025,
+      "totalQuality": "derived"
+    },
+    "2026-03-20": {
+      "date": "2026-03-20",
+      "residential": 997,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1116,
+      "totalQuality": "derived"
+    },
+    "2026-03-23": {
+      "date": "2026-03-23",
+      "residential": 898,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1005,
+      "totalQuality": "derived"
+    },
+    "2026-03-24": {
+      "date": "2026-03-24",
+      "residential": 827,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 926,
+      "totalQuality": "derived"
+    },
+    "2026-03-25": {
+      "date": "2026-03-25",
+      "residential": 948,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1061,
+      "totalQuality": "derived"
+    },
+    "2026-03-26": {
+      "date": "2026-03-26",
+      "residential": 955,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1069,
+      "totalQuality": "derived"
+    },
+    "2026-03-27": {
+      "date": "2026-03-27",
+      "residential": 964,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1079,
+      "totalQuality": "derived"
+    },
+    "2026-03-30": {
+      "date": "2026-03-30",
+      "residential": 1075,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1203,
+      "totalQuality": "derived"
+    },
+    "2026-03-31": {
+      "date": "2026-03-31",
+      "residential": 1422,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1592,
+      "totalQuality": "derived"
+    },
+    "2026-04-01": {
+      "date": "2026-04-01",
+      "residential": 543,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 600,
+      "totalQuality": "derived"
+    },
+    "2026-04-02": {
+      "date": "2026-04-02",
+      "residential": 621,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 687,
+      "totalQuality": "derived"
+    },
+    "2026-04-03": {
+      "date": "2026-04-03",
+      "residential": 696,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 770,
+      "totalQuality": "derived"
+    },
+    "2026-04-06": {
+      "date": "2026-04-06",
+      "residential": 61,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 67,
+      "totalQuality": "derived"
+    },
+    "2026-04-07": {
+      "date": "2026-04-07",
+      "residential": 659,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 729,
+      "totalQuality": "derived"
+    },
+    "2026-04-08": {
+      "date": "2026-04-08",
+      "residential": 754,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 834,
+      "totalQuality": "derived"
+    },
+    "2026-04-09": {
+      "date": "2026-04-09",
+      "residential": 790,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 873,
+      "totalQuality": "derived"
+    },
+    "2026-04-10": {
+      "date": "2026-04-10",
+      "residential": 863,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 954,
+      "totalQuality": "derived"
+    },
+    "2026-04-13": {
+      "date": "2026-04-13",
+      "residential": 857,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 948,
+      "totalQuality": "derived"
+    },
+    "2026-04-14": {
+      "date": "2026-04-14",
+      "residential": 778,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 860,
+      "totalQuality": "derived"
+    },
+    "2026-04-15": {
+      "date": "2026-04-15",
+      "residential": 870,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 962,
+      "totalQuality": "derived"
+    },
+    "2026-04-16": {
+      "date": "2026-04-16",
+      "residential": 828,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 916,
+      "totalQuality": "derived"
+    },
+    "2026-04-17": {
+      "date": "2026-04-17",
+      "residential": 830,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 918,
+      "totalQuality": "derived"
+    },
+    "2026-04-20": {
+      "date": "2026-04-20",
+      "residential": 865,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 956,
+      "totalQuality": "derived"
+    },
+    "2026-04-21": {
+      "date": "2026-04-21",
+      "residential": 749,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 828,
+      "totalQuality": "derived"
+    },
+    "2026-04-22": {
+      "date": "2026-04-22",
+      "residential": 847,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 937,
+      "totalQuality": "derived"
+    },
+    "2026-04-23": {
+      "date": "2026-04-23",
+      "residential": 847,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 937,
+      "totalQuality": "derived"
+    },
+    "2026-04-28": {
+      "date": "2026-04-28",
+      "residential": 751,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 830,
+      "totalQuality": "derived"
+    },
+    "2026-04-29": {
+      "date": "2026-04-29",
+      "residential": 820,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 905,
+      "totalQuality": "derived"
+    },
+    "2026-05-18": {
+      "date": "2026-05-18",
+      "residential": 774,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 866,
+      "totalQuality": "derived"
+    },
+    "2026-05-19": {
+      "date": "2026-05-19",
+      "residential": 707,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 791,
+      "totalQuality": "derived"
+    },
+    "2026-05-20": {
+      "date": "2026-05-20",
+      "residential": 874,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 978,
+      "totalQuality": "derived"
+    },
+    "2026-05-21": {
+      "date": "2026-05-21",
+      "residential": 720,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 806,
+      "totalQuality": "derived"
+    },
+    "2026-05-22": {
+      "date": "2026-05-22",
+      "residential": 726,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 812,
+      "totalQuality": "derived"
+    },
+    "2026-05-25": {
+      "date": "2026-05-25",
+      "residential": 777,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 870,
+      "totalQuality": "derived"
+    },
+    "2026-05-27": {
+      "date": "2026-05-27",
+      "residential": 790,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 884,
+      "totalQuality": "derived"
+    },
+    "2026-05-28": {
+      "date": "2026-05-28",
+      "residential": 786,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 880,
+      "totalQuality": "derived"
+    },
+    "2026-05-29": {
+      "date": "2026-05-29",
+      "residential": 807,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 903,
+      "totalQuality": "derived"
+    },
+    "2026-06-01": {
+      "date": "2026-06-01",
+      "residential": 557,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 629,
+      "totalQuality": "derived"
+    },
+    "2026-06-02": {
+      "date": "2026-06-02",
+      "residential": 510,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 576,
+      "totalQuality": "derived"
+    },
+    "2026-06-03": {
+      "date": "2026-06-03",
+      "residential": 639,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 721,
+      "totalQuality": "derived"
+    },
+    "2026-06-04": {
+      "date": "2026-06-04",
+      "residential": 651,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 735,
+      "totalQuality": "derived"
+    },
+    "2026-06-05": {
+      "date": "2026-06-05",
+      "residential": 620,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 700,
+      "totalQuality": "derived"
+    },
+    "2026-06-08": {
+      "date": "2026-06-08",
+      "residential": 683,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 771,
+      "totalQuality": "derived"
+    },
+    "2026-06-09": {
+      "date": "2026-06-09",
+      "residential": 591,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 667,
+      "totalQuality": "derived"
+    },
+    "2026-06-10": {
+      "date": "2026-06-10",
+      "residential": 636,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 718,
+      "totalQuality": "derived"
+    },
+    "2026-06-11": {
+      "date": "2026-06-11",
+      "residential": 714,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 806,
+      "totalQuality": "derived"
+    },
+    "2026-06-12": {
+      "date": "2026-06-12",
+      "residential": 686,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 774,
+      "totalQuality": "derived"
+    },
+    "2026-06-15": {
+      "date": "2026-06-15",
+      "residential": 681,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 769,
+      "totalQuality": "derived"
+    },
+    "2026-06-16": {
+      "date": "2026-06-16",
+      "residential": 627,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 708,
+      "totalQuality": "derived"
+    },
+    "2026-06-17": {
+      "date": "2026-06-17",
+      "residential": 698,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 788,
+      "totalQuality": "derived"
+    },
+    "2026-06-18": {
+      "date": "2026-06-18",
+      "residential": 765,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 863,
+      "totalQuality": "derived"
+    },
+    "2026-06-19": {
+      "date": "2026-06-19",
+      "residential": 167,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 188,
+      "totalQuality": "derived"
+    },
+    "2026-06-22": {
+      "date": "2026-06-22",
+      "residential": 742,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 838,
+      "totalQuality": "derived"
+    },
+    "2026-06-23": {
+      "date": "2026-06-23",
+      "residential": 622,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 702,
+      "totalQuality": "derived"
+    },
+    "2026-06-24": {
+      "date": "2026-06-24",
+      "residential": 776,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 876,
+      "totalQuality": "derived"
+    },
+    "2026-06-25": {
+      "date": "2026-06-25",
+      "residential": 757,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 854,
+      "totalQuality": "derived"
+    },
+    "2026-06-26": {
+      "date": "2026-06-26",
+      "residential": 804,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 907,
+      "totalQuality": "derived"
+    },
+    "2026-06-29": {
+      "date": "2026-06-29",
+      "residential": 1068,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1205,
+      "totalQuality": "derived"
+    },
+    "2026-06-30": {
+      "date": "2026-06-30",
+      "residential": 1260,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 1422,
+      "totalQuality": "derived"
+    },
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "residential": 340,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 381,
+      "totalQuality": "derived"
+    },
+    "2026-07-02": {
+      "date": "2026-07-02",
+      "residential": 403,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 451,
+      "totalQuality": "derived"
+    },
+    "2026-07-03": {
+      "date": "2026-07-03",
+      "residential": 435,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 487,
+      "totalQuality": "derived"
+    },
+    "2026-07-06": {
+      "date": "2026-07-06",
+      "residential": 534,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 598,
+      "totalQuality": "derived"
+    },
+    "2026-07-07": {
+      "date": "2026-07-07",
+      "residential": 500,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 560,
+      "totalQuality": "derived"
+    },
+    "2026-07-08": {
+      "date": "2026-07-08",
+      "residential": 553,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 619,
+      "totalQuality": "derived"
+    },
+    "2026-07-09": {
+      "date": "2026-07-09",
+      "residential": 616,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 689,
+      "totalQuality": "derived"
+    },
+    "2026-07-10": {
+      "date": "2026-07-10",
+      "residential": 542,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 607,
+      "totalQuality": "derived"
+    },
+    "2026-07-13": {
+      "date": "2026-07-13",
+      "residential": 604,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 676,
+      "totalQuality": "derived"
+    },
+    "2026-07-14": {
+      "date": "2026-07-14",
+      "residential": 552,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 618,
+      "totalQuality": "derived"
+    },
+    "2026-07-15": {
+      "date": "2026-07-15",
+      "residential": 612,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 685,
+      "totalQuality": "derived"
+    },
+    "2026-07-16": {
+      "date": "2026-07-16",
+      "residential": 568,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 636,
+      "totalQuality": "derived"
+    },
+    "2026-07-17": {
+      "date": "2026-07-17",
+      "residential": 559,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 626,
+      "totalQuality": "derived"
+    },
+    "2026-07-20": {
+      "date": "2026-07-20",
+      "residential": 580,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 649,
+      "totalQuality": "derived"
+    },
+    "2026-07-21": {
+      "date": "2026-07-21",
+      "residential": 531,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 594,
+      "totalQuality": "derived"
+    },
+    "2026-07-22": {
+      "date": "2026-07-22",
+      "residential": 626,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 701,
+      "totalQuality": "derived"
+    },
+    "2026-07-23": {
+      "date": "2026-07-23",
+      "residential": 575,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 643,
+      "totalQuality": "derived"
+    },
+    "2026-07-24": {
+      "date": "2026-07-24",
+      "residential": 601,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 673,
+      "totalQuality": "derived"
+    },
+    "2026-07-27": {
+      "date": "2026-07-27",
+      "residential": 610,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 683,
+      "totalQuality": "derived"
+    },
+    "2026-07-28": {
+      "date": "2026-07-28",
+      "residential": 583,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 652,
+      "totalQuality": "derived"
+    },
+    "2026-07-29": {
+      "date": "2026-07-29",
+      "residential": 608,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 680,
+      "totalQuality": "derived"
+    },
+    "2026-07-30": {
+      "date": "2026-07-30",
+      "residential": 697,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 780,
+      "totalQuality": "derived"
+    },
+    "2026-07-31": {
+      "date": "2026-07-31",
+      "residential": 791,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 884,
+      "totalQuality": "derived"
+    },
+    "2026-08-03": {
+      "date": "2026-08-03",
+      "residential": 538,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 602,
+      "totalQuality": "derived"
+    },
+    "2026-08-04": {
+      "date": "2026-08-04",
+      "residential": 442,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 495,
+      "totalQuality": "derived"
+    },
+    "2026-08-05": {
+      "date": "2026-08-05",
+      "residential": 532,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 595,
+      "totalQuality": "derived"
+    },
+    "2026-08-06": {
+      "date": "2026-08-06",
+      "residential": 547,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 612,
+      "totalQuality": "derived"
+    },
+    "2026-08-07": {
+      "date": "2026-08-07",
+      "residential": 562,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 629,
+      "totalQuality": "derived"
+    },
+    "2026-08-10": {
+      "date": "2026-08-10",
+      "residential": 563,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 630,
+      "totalQuality": "derived"
+    },
+    "2026-08-11": {
+      "date": "2026-08-11",
+      "residential": 581,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 650,
+      "totalQuality": "derived"
+    },
+    "2026-08-12": {
+      "date": "2026-08-12",
+      "residential": 533,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 596,
+      "totalQuality": "derived"
+    },
+    "2026-08-13": {
+      "date": "2026-08-13",
+      "residential": 571,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 639,
+      "totalQuality": "derived"
+    },
+    "2026-08-14": {
+      "date": "2026-08-14",
+      "residential": 576,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 645,
+      "totalQuality": "derived"
+    },
+    "2026-08-17": {
+      "date": "2026-08-17",
+      "residential": 586,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 656,
+      "totalQuality": "derived"
+    },
+    "2026-08-18": {
+      "date": "2026-08-18",
+      "residential": 545,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 610,
+      "totalQuality": "derived"
+    },
+    "2026-08-19": {
+      "date": "2026-08-19",
+      "residential": 615,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 688,
+      "totalQuality": "derived"
+    },
+    "2026-08-20": {
+      "date": "2026-08-20",
+      "residential": 636,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 712,
+      "totalQuality": "derived"
+    },
+    "2026-08-21": {
+      "date": "2026-08-21",
+      "residential": 696,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 779,
+      "totalQuality": "derived"
+    },
+    "2026-08-24": {
+      "date": "2026-08-24",
+      "residential": 629,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 704,
+      "totalQuality": "derived"
+    },
+    "2026-08-25": {
+      "date": "2026-08-25",
+      "residential": 590,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 660,
+      "totalQuality": "derived"
+    },
+    "2026-08-26": {
+      "date": "2026-08-26",
+      "residential": 611,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 684,
+      "totalQuality": "derived"
+    },
+    "2026-08-27": {
+      "date": "2026-08-27",
+      "residential": 603,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 675,
+      "totalQuality": "derived"
+    },
+    "2026-08-28": {
+      "date": "2026-08-28",
+      "residential": 647,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 724,
+      "totalQuality": "derived"
+    },
+    "2026-08-31": {
+      "date": "2026-08-31",
+      "residential": 852,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 953,
+      "totalQuality": "derived"
+    },
+    "2026-09-01": {
+      "date": "2026-09-01",
+      "residential": 429,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 480,
+      "totalQuality": "derived"
+    },
+    "2026-09-02": {
+      "date": "2026-09-02",
+      "residential": 549,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 614,
+      "totalQuality": "derived"
+    },
+    "2026-09-03": {
+      "date": "2026-09-03",
+      "residential": 579,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 648,
+      "totalQuality": "derived"
+    },
+    "2026-09-04": {
+      "date": "2026-09-04",
+      "residential": 596,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 667,
+      "totalQuality": "derived"
+    },
+    "2026-09-07": {
+      "date": "2026-09-07",
+      "residential": 665,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 744,
+      "totalQuality": "derived"
+    },
+    "2026-09-08": {
+      "date": "2026-09-08",
+      "residential": 555,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 621,
+      "totalQuality": "derived"
+    },
+    "2026-09-09": {
+      "date": "2026-09-09",
+      "residential": 659,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 738,
+      "totalQuality": "derived"
+    },
+    "2026-09-10": {
+      "date": "2026-09-10",
+      "residential": 632,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 707,
+      "totalQuality": "derived"
+    },
+    "2026-09-11": {
+      "date": "2026-09-11",
+      "residential": 678,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 759,
+      "totalQuality": "derived"
+    },
+    "2026-09-14": {
+      "date": "2026-09-14",
+      "residential": 661,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 740,
+      "totalQuality": "derived"
+    },
+    "2026-09-15": {
+      "date": "2026-09-15",
+      "residential": 650,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 727,
+      "totalQuality": "derived"
+    },
+    "2026-09-16": {
+      "date": "2026-09-16",
+      "residential": 704,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 788,
+      "totalQuality": "derived"
+    },
+    "2026-09-17": {
+      "date": "2026-09-17",
+      "residential": 692,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 774,
+      "totalQuality": "derived"
+    },
+    "2026-09-18": {
+      "date": "2026-09-18",
+      "residential": 728,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 815,
+      "totalQuality": "derived"
+    },
+    "2026-09-21": {
+      "date": "2026-09-21",
+      "residential": 618,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 692,
+      "totalQuality": "derived"
+    },
+    "2026-09-22": {
+      "date": "2026-09-22",
+      "residential": 660,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 739,
+      "totalQuality": "derived"
+    },
+    "2026-09-23": {
+      "date": "2026-09-23",
+      "residential": 691,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 773,
+      "totalQuality": "derived"
+    },
+    "2026-09-24": {
+      "date": "2026-09-24",
+      "residential": 711,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 796,
+      "totalQuality": "derived"
+    },
+    "2026-09-25": {
+      "date": "2026-09-25",
+      "residential": 121,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 135,
+      "totalQuality": "derived"
+    },
+    "2026-09-28": {
+      "date": "2026-09-28",
+      "residential": 786,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 880,
+      "totalQuality": "derived"
+    },
+    "2026-09-29": {
+      "date": "2026-09-29",
+      "residential": 865,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 968,
+      "totalQuality": "derived"
+    },
+    "2026-09-30": {
+      "date": "2026-09-30",
+      "residential": 818,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 916,
+      "totalQuality": "derived"
+    },
+    "2026-10-01": {
+      "date": "2026-10-01",
+      "residential": 31,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 34,
+      "totalQuality": "derived"
+    },
+    "2026-10-02": {
+      "date": "2026-10-02",
+      "residential": 10,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 11,
+      "totalQuality": "derived"
+    },
+    "2026-10-05": {
+      "date": "2026-10-05",
+      "residential": 19,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 21,
+      "totalQuality": "derived"
+    },
+    "2026-10-06": {
+      "date": "2026-10-06",
+      "residential": 15,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 17,
+      "totalQuality": "derived"
+    },
+    "2026-10-07": {
+      "date": "2026-10-07",
+      "residential": 34,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 38,
+      "totalQuality": "derived"
+    },
+    "2026-10-08": {
+      "date": "2026-10-08",
+      "residential": 495,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 549,
+      "totalQuality": "derived"
+    },
+    "2026-10-09": {
+      "date": "2026-10-09",
+      "residential": 624,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 692,
+      "totalQuality": "derived"
+    },
+    "2026-10-12": {
+      "date": "2026-10-12",
+      "residential": 647,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 717,
+      "totalQuality": "derived"
+    },
+    "2026-10-13": {
+      "date": "2026-10-13",
+      "residential": 598,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 663,
+      "totalQuality": "derived"
+    },
+    "2026-10-14": {
+      "date": "2026-10-14",
+      "residential": 622,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 689,
+      "totalQuality": "derived"
+    },
+    "2026-10-15": {
+      "date": "2026-10-15",
+      "residential": 704,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 780,
+      "totalQuality": "derived"
+    },
+    "2026-10-16": {
+      "date": "2026-10-16",
+      "residential": 663,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 735,
+      "totalQuality": "derived"
+    },
+    "2026-10-19": {
+      "date": "2026-10-19",
+      "residential": 719,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 797,
+      "totalQuality": "derived"
+    },
+    "2026-10-20": {
+      "date": "2026-10-20",
+      "residential": 650,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 720,
+      "totalQuality": "derived"
+    },
+    "2026-10-21": {
+      "date": "2026-10-21",
+      "residential": 689,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "total": 764,
+      "residentialArea": 62686.07,
+      "totalArea": 65190.33,
+      "totalQuality": "derived",
+      "officialTable": true
+    },
+    "2026-10-22": {
+      "date": "2026-10-22",
+      "residential": 689,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "total": 764,
+      "residentialArea": 62719.76,
+      "totalArea": 66559.68,
+      "totalQuality": "derived",
+      "officialTable": true
+    },
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "residential": 714,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 791,
+      "totalQuality": "derived"
+    },
+    "2026-10-26": {
+      "date": "2026-10-26",
+      "residential": 656,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 727,
+      "totalQuality": "derived"
+    },
+    "2026-10-27": {
+      "date": "2026-10-27",
+      "residential": 548,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 607,
+      "totalQuality": "derived"
+    },
+    "2026-10-28": {
+      "date": "2026-10-28",
+      "residential": 675,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 748,
+      "totalQuality": "derived"
+    },
+    "2026-10-29": {
+      "date": "2026-10-29",
+      "residential": 730,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 809,
+      "totalQuality": "derived"
+    },
+    "2026-10-30": {
+      "date": "2026-10-30",
+      "residential": 742,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 823,
+      "totalQuality": "derived"
+    },
+    "2026-11-02": {
+      "date": "2026-11-02",
+      "residential": 546,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 615,
+      "totalQuality": "derived"
+    },
+    "2026-11-03": {
+      "date": "2026-11-03",
+      "residential": 524,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 590,
+      "totalQuality": "derived"
+    },
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "residential": 658,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 741,
+      "totalQuality": "derived"
+    },
+    "2026-11-05": {
+      "date": "2026-11-05",
+      "residential": 627,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 706,
+      "totalQuality": "derived"
+    },
+    "2026-11-06": {
+      "date": "2026-11-06",
+      "residential": 612,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "official-table"
+      ],
+      "officialTable": true,
+      "total": 689,
+      "totalQuality": "derived"
+    },
+    "2026-11-08": {
+      "date": "2026-11-08",
+      "residential": 116,
+      "total": 130,
+      "residentialArea": 10842.14,
+      "totalArea": 10985.4,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "totalQuality": "derived",
+      "officialTable": true,
+      "archived": true
+    },
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "residential": 578,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 649,
+      "residentialArea": 51188.85,
+      "totalArea": 54447.93,
+      "totalQuality": "official",
+      "officialCapture": true,
+      "archived": true
+    },
+    "2026-03-01": {
+      "date": "2026-03-01",
+      "residential": 88,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 98,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-07": {
+      "date": "2026-03-07",
+      "residential": 171,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 191,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-08": {
+      "date": "2026-03-08",
+      "residential": 106,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 119,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-14": {
+      "date": "2026-03-14",
+      "residential": 224,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 251,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-15": {
+      "date": "2026-03-15",
+      "residential": 137,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 153,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-21": {
+      "date": "2026-03-21",
+      "residential": 295,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 330,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-22": {
+      "date": "2026-03-22",
+      "residential": 191,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 214,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-28": {
+      "date": "2026-03-28",
+      "residential": 379,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 424,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-03-29": {
+      "date": "2026-03-29",
+      "residential": 236,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 264,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-04": {
+      "date": "2026-04-04",
+      "residential": 117,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 129,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-05": {
+      "date": "2026-04-05",
+      "residential": 67,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 74,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-11": {
+      "date": "2026-04-11",
+      "residential": 226,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 250,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-12": {
+      "date": "2026-04-12",
+      "residential": 139,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 154,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-18": {
+      "date": "2026-04-18",
+      "residential": 217,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 240,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-19": {
+      "date": "2026-04-19",
+      "residential": 141,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 156,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-24": {
+      "date": "2026-04-24",
+      "residential": 871,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 963,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-25": {
+      "date": "2026-04-25",
+      "residential": 214,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 237,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-26": {
+      "date": "2026-04-26",
+      "residential": 113,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 125,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-27": {
+      "date": "2026-04-27",
+      "residential": 872,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 964,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-04-30": {
+      "date": "2026-04-30",
+      "residential": 887,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 981,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-01": {
+      "date": "2026-05-01",
+      "residential": 53,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 59,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-02": {
+      "date": "2026-05-02",
+      "residential": 33,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 37,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-03": {
+      "date": "2026-05-03",
+      "residential": 20,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 22,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-04": {
+      "date": "2026-05-04",
+      "residential": 33,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 37,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-05": {
+      "date": "2026-05-05",
+      "residential": 53,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 59,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-06": {
+      "date": "2026-05-06",
+      "residential": 639,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 715,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-07": {
+      "date": "2026-05-07",
+      "residential": 770,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 862,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-08": {
+      "date": "2026-05-08",
+      "residential": 779,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 872,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-09": {
+      "date": "2026-05-09",
+      "residential": 745,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 834,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-10": {
+      "date": "2026-05-10",
+      "residential": 169,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 189,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-11": {
+      "date": "2026-05-11",
+      "residential": 824,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 922,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-12": {
+      "date": "2026-05-12",
+      "residential": 694,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 777,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-13": {
+      "date": "2026-05-13",
+      "residential": 823,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 921,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-14": {
+      "date": "2026-05-14",
+      "residential": 762,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 853,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-15": {
+      "date": "2026-05-15",
+      "residential": 705,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 789,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-16": {
+      "date": "2026-05-16",
+      "residential": 203,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 227,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-17": {
+      "date": "2026-05-17",
+      "residential": 158,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 177,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-23": {
+      "date": "2026-05-23",
+      "residential": 200,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 224,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-24": {
+      "date": "2026-05-24",
+      "residential": 125,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 140,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-26": {
+      "date": "2026-05-26",
+      "residential": 646,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 723,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-30": {
+      "date": "2026-05-30",
+      "residential": 295,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 330,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-05-31": {
+      "date": "2026-05-31",
+      "residential": 284,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 318,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-06": {
+      "date": "2026-06-06",
+      "residential": 175,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 198,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-07": {
+      "date": "2026-06-07",
+      "residential": 112,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 126,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-13": {
+      "date": "2026-06-13",
+      "residential": 193,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 218,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-14": {
+      "date": "2026-06-14",
+      "residential": 138,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 156,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-20": {
+      "date": "2026-06-20",
+      "residential": 111,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 125,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-21": {
+      "date": "2026-06-21",
+      "residential": 127,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 143,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-27": {
+      "date": "2026-06-27",
+      "residential": 294,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 332,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-06-28": {
+      "date": "2026-06-28",
+      "residential": 214,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 242,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-04": {
+      "date": "2026-07-04",
+      "residential": 136,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 152,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-05": {
+      "date": "2026-07-05",
+      "residential": 79,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 88,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-11": {
+      "date": "2026-07-11",
+      "residential": 162,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 181,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-12": {
+      "date": "2026-07-12",
+      "residential": 49,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 55,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-18": {
+      "date": "2026-07-18",
+      "residential": 178,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 199,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-19": {
+      "date": "2026-07-19",
+      "residential": 120,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 134,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-25": {
+      "date": "2026-07-25",
+      "residential": 162,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 181,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-07-26": {
+      "date": "2026-07-26",
+      "residential": 131,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 147,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-01": {
+      "date": "2026-08-01",
+      "residential": 125,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 140,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-02": {
+      "date": "2026-08-02",
+      "residential": 72,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 81,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-08": {
+      "date": "2026-08-08",
+      "residential": 113,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 126,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-09": {
+      "date": "2026-08-09",
+      "residential": 89,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 100,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-15": {
+      "date": "2026-08-15",
+      "residential": 161,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 180,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-16": {
+      "date": "2026-08-16",
+      "residential": 119,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 133,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-22": {
+      "date": "2026-08-22",
+      "residential": 193,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 216,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-23": {
+      "date": "2026-08-23",
+      "residential": 116,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 130,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-29": {
+      "date": "2026-08-29",
+      "residential": 227,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 254,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-08-30": {
+      "date": "2026-08-30",
+      "residential": 183,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 205,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-05": {
+      "date": "2026-09-05",
+      "residential": 173,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 194,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-06": {
+      "date": "2026-09-06",
+      "residential": 122,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 137,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-12": {
+      "date": "2026-09-12",
+      "residential": 221,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 247,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-13": {
+      "date": "2026-09-13",
+      "residential": 151,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 169,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-19": {
+      "date": "2026-09-19",
+      "residential": 222,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 248,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-20": {
+      "date": "2026-09-20",
+      "residential": 600,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 671,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-26": {
+      "date": "2026-09-26",
+      "residential": 75,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 84,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-09-27": {
+      "date": "2026-09-27",
+      "residential": 145,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 162,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-03": {
+      "date": "2026-10-03",
+      "residential": 4,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 4,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-04": {
+      "date": "2026-10-04",
+      "residential": 15,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 17,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "residential": 718,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 796,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-11": {
+      "date": "2026-10-11",
+      "residential": 193,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 214,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-17": {
+      "date": "2026-10-17",
+      "residential": 190,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 211,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-18": {
+      "date": "2026-10-18",
+      "residential": 78,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 86,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-24": {
+      "date": "2026-10-24",
+      "residential": 186,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 206,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-25": {
+      "date": "2026-10-25",
+      "residential": 113,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 125,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-10-31": {
+      "date": "2026-10-31",
+      "residential": 310,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 344,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-11-01": {
+      "date": "2026-11-01",
+      "residential": 74,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 83,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-11-07": {
+      "date": "2026-11-07",
+      "residential": 184,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 206,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-03": {
+      "date": "2026-01-03",
+      "residential": 40,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 45,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-04": {
+      "date": "2026-01-04",
+      "residential": 429,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 480,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-10": {
+      "date": "2026-01-10",
+      "residential": 159,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 178,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-11": {
+      "date": "2026-01-11",
+      "residential": 89,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 100,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-17": {
+      "date": "2026-01-17",
+      "residential": 196,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 219,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-18": {
+      "date": "2026-01-18",
+      "residential": 137,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 153,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-24": {
+      "date": "2026-01-24",
+      "residential": 184,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 206,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-25": {
+      "date": "2026-01-25",
+      "residential": 146,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 163,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-01-31": {
+      "date": "2026-01-31",
+      "residential": 430,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 481,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-01": {
+      "date": "2026-02-01",
+      "residential": 101,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 113,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-07": {
+      "date": "2026-02-07",
+      "residential": 196,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 219,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-08": {
+      "date": "2026-02-08",
+      "residential": 140,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 157,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-14": {
+      "date": "2026-02-14",
+      "residential": 112,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 125,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-15": {
+      "date": "2026-02-15",
+      "residential": 10,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 11,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-21": {
+      "date": "2026-02-21",
+      "residential": 1,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 1,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-22": {
+      "date": "2026-02-22",
+      "residential": 0,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 0,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-02-28": {
+      "date": "2026-02-28",
+      "residential": 666,
+      "quality": "official",
+      "sources": [
+        "zjw",
+        "official-table",
+        "history-archive"
+      ],
+      "officialTable": true,
+      "total": 745,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2026-11-10": {
+      "date": "2026-11-10",
+      "residential": 549,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 622,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2025-11-15": {
+      "date": "2025-11-15",
+      "residential": 229,
+      "quality": "derived",
+      "sources": [
+        "median-weekend"
+      ],
+      "calibrated": true,
+      "total": 256,
+      "totalQuality": "derived"
+    },
+    "2025-11-16": {
+      "date": "2025-11-16",
+      "residential": 98,
+      "quality": "derived",
+      "sources": [
+        "median-weekend"
+      ],
+      "calibrated": true,
+      "total": 110,
+      "totalQuality": "derived"
+    },
+    "2025-11-22": {
+      "date": "2025-11-22",
+      "residential": 226,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 253,
+      "totalQuality": "derived"
+    },
+    "2025-11-23": {
+      "date": "2025-11-23",
+      "residential": 97,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 109,
+      "totalQuality": "derived"
+    },
+    "2025-11-29": {
+      "date": "2025-11-29",
+      "residential": 453,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 507,
+      "totalQuality": "derived"
+    },
+    "2025-11-30": {
+      "date": "2025-11-30",
+      "residential": 194,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 217,
+      "totalQuality": "derived"
+    },
+    "2025-12-06": {
+      "date": "2025-12-06",
+      "residential": 203,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 227,
+      "totalQuality": "derived"
+    },
+    "2025-12-07": {
+      "date": "2025-12-07",
+      "residential": 87,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 97,
+      "totalQuality": "derived"
+    },
+    "2025-12-13": {
+      "date": "2025-12-13",
+      "residential": 221,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 247,
+      "totalQuality": "derived"
+    },
+    "2025-12-14": {
+      "date": "2025-12-14",
+      "residential": 95,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 106,
+      "totalQuality": "derived"
+    },
+    "2025-12-20": {
+      "date": "2025-12-20",
+      "residential": 282,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 316,
+      "totalQuality": "derived"
+    },
+    "2025-12-21": {
+      "date": "2025-12-21",
+      "residential": 121,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 135,
+      "totalQuality": "derived"
+    },
+    "2025-12-27": {
+      "date": "2025-12-27",
+      "residential": 320,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 358,
+      "totalQuality": "derived"
+    },
+    "2025-12-28": {
+      "date": "2025-12-28",
+      "residential": 137,
+      "quality": "derived",
+      "sources": [
+        "weekly-residual"
+      ],
+      "total": 153,
+      "totalQuality": "derived"
+    },
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "residential": 630,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 703,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "residential": 655,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 739,
+      "officialCapture": true,
+      "totalQuality": "official"
+    },
+    "2026-11-13": {
+      "date": "2026-11-13",
+      "residential": 693,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 763,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-14": {
+      "date": "2026-11-14",
+      "residential": 208,
+      "total": 223,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-15": {
+      "date": "2026-11-15",
+      "residential": 131,
+      "total": 139,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-16": {
+      "date": "2026-11-16",
+      "residential": 665,
+      "total": 749,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "residential": 567,
+      "total": 635,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "residential": 687,
+      "total": 759,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    }
+  },
+  "updatedAt": "2026-11-18T23:08:45.934Z"
+}

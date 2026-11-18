@@ -1,0 +1,61 @@
+name: 每日更新北京网签看板
+
+# 每天两次（北京时间 09:05 / 22:05），与官方页面发布节奏一致。
+# GitHub Actions 的 cron 使用 UTC，故 01:05 / 14:05 UTC。
+on:
+  schedule:
+    - cron: '5 1,14 * * *'
+  # 允许在 Actions 页面手动点「Run workflow」立刻更新一次
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Node 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 关键点：store.json 不入库，新的一次运行必须从 seed.json 冷启动，
+      # 否则 rebuild 只会看到最近一年的滚动源，历史会被当成「新数据」而丢失。
+      - name: 从种子恢复数据库
+        run: cp -f server/data/seed.json server/data/store.json
+
+      - name: 抓取官方最新数据并重建
+        env:
+          # 静态站点没有 /api/capture 接口，置空可跳过「线上合并」这一步，
+          # 避免每次都去请求已下线的工作室沙箱地址。
+          LIVE_URL: ''
+        run: npm run capture
+
+      - name: 刷新种子供下次运行使用
+        run: npm run seed
+
+      - name: 生成静态站点目录
+        run: npm run static:build
+
+      - name: 提交数据变更
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add server/data/seed.json server/data/capture-archive.json \
+                  server/data/newhomes-archive.json server/data/stocks-archive.json \
+                  server/data/history-archive.json server/data/verification.json \
+                  web/data/snapshot.js site/
+          if git diff --cached --quiet; then
+            echo "本轮数据无变化，跳过提交。"
+          else
+            git commit -m "每日数据更新 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
