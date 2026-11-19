@@ -1,0 +1,59 @@
+name: 每日更新北京网签看板
+
+on:
+  schedule:
+    - cron: '5 1,14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: beijing-ershoufang-github
+    steps:
+      - name: 拉取仓库
+        uses: actions/checkout@v4
+
+      - name: 准备 Node 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 从种子恢复数据库
+        run: cp -f server/data/seed.json server/data/store.json
+
+      - name: 抓取官方最新数据并重建
+        env:
+          LIVE_URL: ''
+        run: npm run capture
+
+      - name: 刷新种子供下次运行使用
+        run: npm run seed
+
+      - name: 生成静态站点目录
+        run: npm run static:build
+
+      - name: 提交数据变更
+        working-directory: ${{ github.workspace }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          P=beijing-ershoufang-github
+          git add "$P/server/data/seed.json" "$P/server/data/capture-archive.json" \
+                  "$P/server/data/newhomes-archive.json" "$P/server/data/stocks-archive.json" \
+                  "$P/server/data/history-archive.json" "$P/server/data/verification.json" \
+                  "$P/web/data/snapshot.js" "$P/site/"
+          if git diff --cached --quiet; then
+            echo "本轮数据无变化，跳过提交。"
+          else
+            git commit -m "每日数据更新 $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
