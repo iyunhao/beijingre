@@ -3,7 +3,7 @@ window.__SNAPSHOT__ = {
   "city": "北京",
   "metric": "residential",
   "metricLabel": "住宅签约套数",
-  "updatedAt": "2026-11-19T02:16:30.101Z",
+  "updatedAt": "2026-11-19T14:56:37.232Z",
   "days": [
     {
       "date": "2025-11-10",
@@ -9706,7 +9706,7 @@ window.__SNAPSHOT__ = {
       "from": "2025-11-10",
       "to": "2026-11-18"
     },
-    "rebuiltAt": "2026-11-19T02:16:30.101Z",
+    "rebuiltAt": "2026-11-19T14:56:37.232Z",
     "counts": {
       "total": 374,
       "official": 322,

@@ -2,9 +2,9 @@
   "meta": {
     "city": "北京",
     "metric": "residential",
-    "updatedAt": "2026-11-19T02:16:31.385Z",
+    "updatedAt": "2026-11-19T14:56:38.276Z",
     "lastError": null,
-    "rebuiltAt": "2026-11-19T02:16:31.385Z",
+    "rebuiltAt": "2026-11-19T14:56:38.276Z",
     "range": {
       "from": "2025-11-10",
       "to": "2026-11-18"
