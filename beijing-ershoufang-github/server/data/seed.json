@@ -2,9 +2,9 @@
   "meta": {
     "city": "北京",
     "metric": "residential",
-    "updatedAt": "2026-11-19T00:09:05.224Z",
+    "updatedAt": "2026-11-19T02:16:31.385Z",
     "lastError": null,
-    "rebuiltAt": "2026-11-19T00:09:05.224Z",
+    "rebuiltAt": "2026-11-19T02:16:31.385Z",
     "range": {
       "from": "2025-11-10",
       "to": "2026-11-18"
@@ -21,7 +21,7 @@
     "warnings": [
       "周总量冲突 2026-05-18：房市儿 8570 vs 凰家周刊 4126，采用凰家周刊",
       "周总量冲突 2026-05-25：房市儿 3739 vs 凰家周刊 4385，采用凰家周刊",
-      "周总量异常 2025-11-10：117（fangshi-weekly），残差 -3109 远超正常范围，已忽略"
+      "周总量异常 2025-11-17：1592（fangshi-weekly），残差 -1471 远超正常范围，已忽略"
     ],
     "reconciliation": [
       {
@@ -30,7 +30,7 @@
         "weekdays": 15,
         "estimated": 0,
         "derived": 6,
-        "sum": 11096,
+        "sum": 11103,
         "official": null,
         "deviation": null,
         "missingWeekdays": 0,
@@ -206,19 +206,19 @@
       ]
     },
     "weekendShare": 0.0918,
-    "residualMedian": 331,
+    "residualMedian": 332,
     "suspiciousWeeks": [
       {
-        "week": "2025-11-10",
-        "residual": -3109,
-        "anchor": 117,
+        "week": "2025-11-17",
+        "residual": -1471,
+        "anchor": 1592,
         "source": "fangshi-weekly"
       }
     ],
     "monthTotals": {
       "2025-11": {
-        "total": 12418,
-        "residential": 11096,
+        "total": 12426,
+        "residential": 11103,
         "ratio": 0.8936,
         "exact": false,
         "source": "按当月住宅占网签总量比例推算"
@@ -315,43 +315,13 @@
       "archivedDays": 374,
       "first": "2025-11-10",
       "last": "2026-11-18",
-      "updatedAt": "2026-11-18T23:08:45.934Z",
+      "updatedAt": "2026-11-19T02:16:31.363Z",
       "carriedThisRun": 129
     },
     "lastStockDate": "2026-11-18",
     "stockCount": 19
   },
   "days": {
-    "2025-11-17": {
-      "date": "2025-11-17",
-      "residential": 643,
-      "quality": "exact",
-      "sources": [
-        "fangshi-daily"
-      ],
-      "total": 720,
-      "totalQuality": "derived"
-    },
-    "2025-11-18": {
-      "date": "2025-11-18",
-      "residential": 634,
-      "quality": "exact",
-      "sources": [
-        "fangshi-daily"
-      ],
-      "total": 710,
-      "totalQuality": "derived"
-    },
-    "2025-11-19": {
-      "date": "2025-11-19",
-      "residential": 517,
-      "quality": "exact",
-      "sources": [
-        "fangshi-daily"
-      ],
-      "total": 579,
-      "totalQuality": "derived"
-    },
     "2025-11-20": {
       "date": "2025-11-20",
       "residential": 592,
@@ -3418,6 +3388,48 @@
       "totalQuality": "official",
       "archived": true
     },
+    "2026-11-16": {
+      "date": "2026-11-16",
+      "residential": 665,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 749,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "residential": 567,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 635,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "residential": 687,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw",
+        "zjw-archive"
+      ],
+      "total": 759,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
     "2025-11-10": {
       "date": "2025-11-10",
       "residential": 635,
@@ -3475,6 +3487,42 @@
         "history-archive"
       ],
       "total": 768,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-17": {
+      "date": "2025-11-17",
+      "residential": 643,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 720,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-18": {
+      "date": "2025-11-18",
+      "residential": 634,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 710,
+      "totalQuality": "derived",
+      "archived": true
+    },
+    "2025-11-19": {
+      "date": "2025-11-19",
+      "residential": 517,
+      "quality": "exact",
+      "sources": [
+        "fangshi-daily",
+        "history-archive"
+      ],
+      "total": 579,
       "totalQuality": "derived",
       "archived": true
     },
@@ -4955,41 +5003,47 @@
       "residential": 229,
       "quality": "derived",
       "sources": [
-        "median-weekend"
+        "median-weekend",
+        "history-archive"
       ],
       "calibrated": true,
       "total": 256,
-      "totalQuality": "derived"
+      "totalQuality": "derived",
+      "archived": true
     },
     "2025-11-16": {
       "date": "2025-11-16",
       "residential": 98,
       "quality": "derived",
       "sources": [
-        "median-weekend"
+        "median-weekend",
+        "history-archive"
       ],
       "calibrated": true,
       "total": 110,
-      "totalQuality": "derived"
+      "totalQuality": "derived",
+      "archived": true
     },
     "2025-11-22": {
       "date": "2025-11-22",
-      "residential": 226,
+      "residential": 231,
       "quality": "derived",
       "sources": [
-        "weekly-residual"
+        "median-weekend"
       ],
-      "total": 253,
+      "calibrated": true,
+      "total": 259,
       "totalQuality": "derived"
     },
     "2025-11-23": {
       "date": "2025-11-23",
-      "residential": 97,
+      "residential": 99,
       "quality": "derived",
       "sources": [
-        "weekly-residual"
+        "median-weekend"
       ],
-      "total": 109,
+      "calibrated": true,
+      "total": 111,
       "totalQuality": "derived"
     },
     "2025-11-29": {
@@ -5119,48 +5173,6 @@
       "officialCapture": true,
       "totalQuality": "official",
       "archived": true
-    },
-    "2026-11-16": {
-      "date": "2026-11-16",
-      "residential": 665,
-      "total": 749,
-      "quality": "official",
-      "sources": [
-        "zjw-archive",
-        "history-archive",
-        "zjw"
-      ],
-      "officialCapture": true,
-      "totalQuality": "official",
-      "archived": true
-    },
-    "2026-11-17": {
-      "date": "2026-11-17",
-      "residential": 567,
-      "total": 635,
-      "quality": "official",
-      "sources": [
-        "zjw-archive",
-        "history-archive",
-        "zjw"
-      ],
-      "officialCapture": true,
-      "totalQuality": "official",
-      "archived": true
-    },
-    "2026-11-18": {
-      "date": "2026-11-18",
-      "residential": 687,
-      "total": 759,
-      "quality": "official",
-      "sources": [
-        "zjw-archive",
-        "history-archive",
-        "zjw"
-      ],
-      "officialCapture": true,
-      "totalQuality": "official",
-      "archived": true
     }
   },
   "months": {
@@ -5275,7 +5287,7 @@
       "month": "2025-11",
       "year": 2025,
       "monthNum": 11,
-      "total": 12418,
+      "total": 12426,
       "totalExact": false,
       "totalRatio": 0.8936
     },
