@@ -3,7 +3,7 @@ window.__SNAPSHOT__ = {
   "city": "北京",
   "metric": "residential",
   "metricLabel": "住宅签约套数",
-  "updatedAt": "2026-11-18T23:05:03.884Z",
+  "updatedAt": "2026-11-19T00:09:04.143Z",
   "days": [
     {
       "date": "2025-11-10",
@@ -3158,7 +3158,7 @@ window.__SNAPSHOT__ = {
       "unknownSplit": false,
       "exactResidual": false,
       "weekendSum": null,
-      "holiday": null,
+      "holiday": "清明",
       "makeupWorkday": false
     },
     {
@@ -8813,13 +8813,13 @@ window.__SNAPSHOT__ = {
     }
   ],
   "verification": {
-    "generatedAt": "2026-11-18T22:56:08.223Z",
-    "verdict": "PARTIAL",
+    "generatedAt": "2026-11-18T23:05:18.805Z",
+    "verdict": "PASS",
     "summary": {
-      "hardChecks": 5,
-      "passed": 5,
+      "hardChecks": 8,
+      "passed": 8,
       "failed": 0,
-      "unavailable": 2,
+      "unavailable": 0,
       "disclosed": 2
     },
     "sources": {
@@ -8828,16 +8828,40 @@ window.__SNAPSHOT__ = {
       "topic": "http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=307749",
       "fetchedBytes": {
         "fangshi52": 17648,
-        "zjw": 0,
-        "topic": 0
+        "zjw": 7950,
+        "topic": 61452
       },
-      "fetchErrors": [
-        "zjw: 抓取失败 http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=53610668: empty response",
-        "topic: 抓取失败 http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=307749: empty response"
-      ],
-      "officialLatestDay": null,
-      "officialLatestMonth": null,
-      "newHomeLatest": null
+      "fetchErrors": [],
+      "officialLatestDay": {
+        "date": "2026-11-18",
+        "total": 759,
+        "totalArea": 65035.41,
+        "residential": 687,
+        "residentialArea": 62004
+      },
+      "officialLatestMonth": {
+        "year": 2026,
+        "month": 10,
+        "total": 14499,
+        "totalArea": 1218049.51,
+        "residential": 13081,
+        "residentialArea": 1145372.43
+      },
+      "newHomeLatest": {
+        "date": "2026-11-18",
+        "qf": {
+          "total": 117,
+          "totalArea": 8418.04,
+          "residential": 69,
+          "residentialArea": 7645.2
+        },
+        "xf": {
+          "total": 115,
+          "totalArea": 8410.86,
+          "residential": 53,
+          "residentialArea": 6329.74
+        }
+      }
     },
     "checks": [
       {
@@ -8856,9 +8880,15 @@ window.__SNAPSHOT__ = {
       {
         "id": "official_daily",
         "label": "官方最新一日 vs 住建委公示页",
-        "status": "UNAVAILABLE",
-        "numbers": {},
-        "detail": "源站本次未取到"
+        "status": "PASS",
+        "numbers": {
+          "date": "2026-11-18",
+          "officialResidential": 687,
+          "officialTotal": 759,
+          "storedResidential": 687,
+          "storedTotal": 759
+        },
+        "detail": "2026-11-18 住宅 687 / 总套数 759 与官方页面一致"
       },
       {
         "id": "monthly_residential",
@@ -8873,16 +8903,29 @@ window.__SNAPSHOT__ = {
         "detail": "10 个有官方月报的月份逐日合计与官方值完全相等（偏差 0）"
       },
       {
+        "id": "monthly_total",
+        "label": "逐日网上签约总套数 vs 官方月报",
+        "status": "PASS",
+        "numbers": {
+          "month": "2026-10",
+          "official": 14499,
+          "storedSum": 14499,
+          "diff": 0,
+          "days": 31
+        },
+        "detail": "2026-10 总套数 14499 逐日加总分毫不差"
+      },
+      {
         "id": "new_homes",
         "label": "期房/现房当日值 vs 住建委 + 内部一致性",
         "status": "PASS",
         "numbers": {
           "records": 19,
           "invalid": 0,
-          "liveDate": null,
-          "liveMatch": null
+          "liveDate": "2026-11-18",
+          "liveMatch": true
         },
-        "detail": "源站未取到，仅完成内部一致性检查"
+        "detail": "2026-11-18 四个字段与官方页面一致；19 条记录住宅套数均不大于总套数"
       },
       {
         "id": "invariants",
@@ -8902,15 +8945,15 @@ window.__SNAPSHOT__ = {
       {
         "id": "official_month_anchor",
         "label": "官方月报锚点表 vs 住建委实时月报 / 历史存档",
-        "status": "UNAVAILABLE",
+        "status": "PASS",
         "numbers": {
-          "liveMonth": null,
-          "liveResidential": null,
-          "liveTotal": null,
+          "liveMonth": "2026-10",
+          "liveResidential": 13081,
+          "liveTotal": 14499,
           "archivedMonthsChecked": 4,
           "mismatch": 0
         },
-        "detail": "住建委月报本次未取到，无法校验锚点表"
+        "detail": "2026-10 住宅 13081 / 总量 14499 与本地锚点完全一致；另核对 4 个历史月报存档，0 处不一致"
       },
       {
         "id": "weekend_residual",
@@ -9658,7 +9701,7 @@ window.__SNAPSHOT__ = {
       "from": "2025-11-10",
       "to": "2026-11-18"
     },
-    "rebuiltAt": "2026-11-18T23:05:03.884Z",
+    "rebuiltAt": "2026-11-19T00:09:04.143Z",
     "counts": {
       "total": 374,
       "official": 322,
