@@ -3,7 +3,7 @@ window.__SNAPSHOT__ = {
   "city": "北京",
   "metric": "residential",
   "metricLabel": "住宅签约套数",
-  "updatedAt": "2026-11-20T02:12:48.675Z",
+  "updatedAt": "2026-11-20T14:56:00.198Z",
   "days": [
     {
       "date": "2025-11-10",
@@ -8145,7 +8145,9 @@ window.__SNAPSHOT__ = {
       "totalQuality": "official",
       "estimated": false,
       "sources": [
-        "zjw-archive"
+        "zjw-archive",
+        "history-archive",
+        "zjw"
       ],
       "weekend": false,
       "singleDayKnown": false,
@@ -9753,7 +9755,7 @@ window.__SNAPSHOT__ = {
       "from": "2025-11-10",
       "to": "2026-11-19"
     },
-    "rebuiltAt": "2026-11-20T02:12:48.675Z",
+    "rebuiltAt": "2026-11-20T14:56:00.198Z",
     "counts": {
       "total": 375,
       "official": 323,

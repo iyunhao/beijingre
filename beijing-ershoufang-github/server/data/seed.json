@@ -2,9 +2,9 @@
   "meta": {
     "city": "北京",
     "metric": "residential",
-    "updatedAt": "2026-11-20T02:12:49.858Z",
+    "updatedAt": "2026-11-20T14:56:01.448Z",
     "lastError": null,
-    "rebuiltAt": "2026-11-20T02:12:49.858Z",
+    "rebuiltAt": "2026-11-20T14:56:01.448Z",
     "range": {
       "from": "2025-11-10",
       "to": "2026-11-19"
@@ -315,7 +315,7 @@
       "archivedDays": 375,
       "first": "2025-11-10",
       "last": "2026-11-19",
-      "updatedAt": "2026-11-20T02:12:49.845Z",
+      "updatedAt": "2026-11-20T14:56:00.183Z",
       "carriedThisRun": 130
     },
     "lastStockDate": "2026-11-19",
