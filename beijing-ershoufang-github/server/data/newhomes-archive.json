@@ -247,7 +247,20 @@
       "xfResidentialArea": 6329.74,
       "source": "住建委（实时抓取）",
       "capturedAt": "2026-11-18T22:05:19.864Z"
+    },
+    {
+      "date": "2026-11-19",
+      "qfTotal": 183,
+      "qfResidential": 145,
+      "qfTotalArea": 16565.97,
+      "qfResidentialArea": 15440.01,
+      "xfTotal": 155,
+      "xfResidential": 48,
+      "xfTotalArea": 9121.94,
+      "xfResidentialArea": 5979.31,
+      "source": "住建委（实时抓取）",
+      "capturedAt": "2026-11-20T02:12:45.758Z"
     }
   ],
-  "updatedAt": "2026-11-18T22:55:16.837Z"
+  "updatedAt": "2026-11-20T02:12:45.763Z"
 }
