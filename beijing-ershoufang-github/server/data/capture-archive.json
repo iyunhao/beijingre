@@ -98,7 +98,16 @@
       "totalArea": 64875.25,
       "source": "zjw",
       "capturedAt": "2026-11-20T02:12:44.967Z"
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "residential": 744,
+      "total": 808,
+      "residentialArea": 65066.45,
+      "totalArea": 70372.22,
+      "source": "zjw",
+      "capturedAt": "2026-11-21T02:12:21.926Z"
     }
   },
-  "updatedAt": "2026-11-20T02:12:44.967Z"
+  "updatedAt": "2026-11-21T02:12:21.926Z"
 }

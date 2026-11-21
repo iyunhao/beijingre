@@ -3036,7 +3036,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 612,
+      "total": 616,
       "totalQuality": "derived"
     },
     "2026-11-03": {
@@ -3049,7 +3049,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 587,
+      "total": 591,
       "totalQuality": "derived"
     },
     "2026-11-04": {
@@ -3062,7 +3062,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 737,
+      "total": 742,
       "totalQuality": "derived"
     },
     "2026-11-05": {
@@ -3075,7 +3075,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 703,
+      "total": 708,
       "totalQuality": "derived"
     },
     "2026-11-06": {
@@ -3088,7 +3088,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 684,
+      "total": 690,
       "totalQuality": "derived"
     },
     "2026-11-08": {
@@ -4865,7 +4865,18 @@
       "officialCapture": true,
       "totalQuality": "official",
       "archived": true
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "residential": 744,
+      "total": 808,
+      "quality": "official",
+      "sources": [
+        "zjw-archive"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official"
     }
   },
-  "updatedAt": "2026-11-20T14:56:00.183Z"
+  "updatedAt": "2026-11-21T02:12:25.883Z"
 }
