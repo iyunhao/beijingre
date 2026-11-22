@@ -2,16 +2,16 @@
   "meta": {
     "city": "北京",
     "metric": "residential",
-    "updatedAt": "2026-11-21T14:52:44.207Z",
+    "updatedAt": "2026-11-22T02:10:29.654Z",
     "lastError": null,
-    "rebuiltAt": "2026-11-21T14:52:44.207Z",
+    "rebuiltAt": "2026-11-22T02:10:29.654Z",
     "range": {
       "from": "2025-11-10",
-      "to": "2026-11-20"
+      "to": "2026-11-21"
     },
     "counts": {
-      "total": 376,
-      "official": 324,
+      "total": 377,
+      "official": 325,
       "exact": 38,
       "derived": 14,
       "estimated": 0
@@ -170,11 +170,11 @@
       },
       {
         "month": "2026-11",
-        "days": 20,
+        "days": 21,
         "weekdays": 15,
         "estimated": 0,
         "derived": 0,
-        "sum": 10136,
+        "sum": 10332,
         "official": null,
         "deviation": null,
         "missingWeekdays": 0,
@@ -301,25 +301,25 @@
         "source": "住建委月统计（实时抓取）"
       },
       "2026-11": {
-        "total": 11343,
-        "residential": 10136,
+        "total": 11563,
+        "residential": 10332,
         "ratio": 0.8936,
         "exact": false,
         "source": "按当月住宅占网签总量比例推算"
       }
     },
     "estimatedDays": [],
-    "lastNewHomeDate": "2026-11-20",
+    "lastNewHomeDate": "2026-11-21",
     "newHomeCount": 10,
     "history": {
-      "archivedDays": 376,
+      "archivedDays": 377,
       "first": "2025-11-10",
-      "last": "2026-11-20",
-      "updatedAt": "2026-11-21T14:52:43.321Z",
-      "carriedThisRun": 131
+      "last": "2026-11-21",
+      "updatedAt": "2026-11-22T02:10:29.641Z",
+      "carriedThisRun": 132
     },
-    "lastStockDate": "2026-11-20",
-    "stockCount": 21
+    "lastStockDate": "2026-11-21",
+    "stockCount": 22
   },
   "days": {
     "2025-11-20": {
@@ -3262,7 +3262,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 616,
+      "total": 617,
       "totalQuality": "derived"
     },
     "2026-11-03": {
@@ -3275,7 +3275,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 591,
+      "total": 592,
       "totalQuality": "derived"
     },
     "2026-11-04": {
@@ -3288,7 +3288,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 742,
+      "total": 744,
       "totalQuality": "derived"
     },
     "2026-11-05": {
@@ -3301,7 +3301,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 708,
+      "total": 709,
       "totalQuality": "derived"
     },
     "2026-11-06": {
@@ -3314,7 +3314,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 690,
+      "total": 693,
       "totalQuality": "derived"
     },
     "2026-11-09": {
@@ -5201,6 +5201,20 @@
       "officialCapture": true,
       "totalQuality": "official",
       "archived": true
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "residential": 196,
+      "total": 212,
+      "quality": "official",
+      "sources": [
+        "zjw-archive",
+        "history-archive",
+        "zjw"
+      ],
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
     }
   },
   "months": {
@@ -5342,7 +5356,7 @@
       "month": "2026-11",
       "year": 2026,
       "monthNum": 11,
-      "total": 11343,
+      "total": 11563,
       "totalExact": false,
       "totalRatio": 0.8936
     }
@@ -5620,6 +5634,19 @@
       "xfResidentialArea": 6789,
       "source": "住建委（实时抓取）",
       "capturedAt": "2026-11-21T02:12:22.381Z"
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "qfTotal": 109,
+      "qfResidential": 52,
+      "qfTotalArea": 7207.13,
+      "qfResidentialArea": 6001.45,
+      "xfTotal": 70,
+      "xfResidential": 11,
+      "xfTotalArea": 2803.6,
+      "xfResidentialArea": 1241.68,
+      "source": "住建委（实时抓取）",
+      "capturedAt": "2026-11-22T02:10:25.226Z"
     }
   },
   "stocks": {
@@ -5921,6 +5948,20 @@
       "source": "住建委（实时抓取）",
       "note": null,
       "capturedAt": "2026-11-21T02:12:22.390Z"
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "qfStockTotal": 60915,
+      "qfStockResidential": 26911,
+      "qfStockTotalArea": 5458748.24,
+      "qfStockResidentialArea": 3863966.02,
+      "xfStockTotal": 210508,
+      "xfStockResidential": 25905,
+      "xfStockTotalArea": 11020130.46,
+      "xfStockResidentialArea": 3227858.52,
+      "source": "住建委（实时抓取）",
+      "note": null,
+      "capturedAt": "2026-11-22T02:10:25.232Z"
     }
   }
 }
