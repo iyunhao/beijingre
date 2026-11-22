@@ -4886,11 +4886,14 @@
       "total": 212,
       "quality": "official",
       "sources": [
-        "zjw-archive"
+        "zjw-archive",
+        "history-archive",
+        "zjw"
       ],
       "officialCapture": true,
-      "totalQuality": "official"
+      "totalQuality": "official",
+      "archived": true
     }
   },
-  "updatedAt": "2026-11-22T02:10:29.641Z"
+  "updatedAt": "2026-11-22T14:51:04.373Z"
 }
