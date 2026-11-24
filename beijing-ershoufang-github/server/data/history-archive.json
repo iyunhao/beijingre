@@ -4914,11 +4914,14 @@
       "total": 699,
       "quality": "official",
       "sources": [
-        "zjw-archive"
+        "zjw-archive",
+        "history-archive",
+        "zjw"
       ],
       "officialCapture": true,
-      "totalQuality": "official"
+      "totalQuality": "official",
+      "archived": true
     }
   },
-  "updatedAt": "2026-11-24T02:19:16.929Z"
+  "updatedAt": "2026-11-24T15:02:17.647Z"
 }
