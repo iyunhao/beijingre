@@ -3,7 +3,7 @@ window.__SNAPSHOT__ = {
   "city": "北京",
   "metric": "residential",
   "metricLabel": "住宅签约套数",
-  "updatedAt": "2026-11-23T15:04:49.307Z",
+  "updatedAt": "2026-11-24T02:19:15.732Z",
   "days": [
     {
       "date": "2025-11-10",
@@ -7769,7 +7769,7 @@ window.__SNAPSHOT__ = {
       "date": "2026-11-02",
       "value": 546,
       "residential": 546,
-      "total": 619,
+      "total": 620,
       "quality": "official",
       "totalQuality": "derived",
       "estimated": false,
@@ -7790,7 +7790,7 @@ window.__SNAPSHOT__ = {
       "date": "2026-11-03",
       "value": 524,
       "residential": 524,
-      "total": 594,
+      "total": 595,
       "quality": "official",
       "totalQuality": "derived",
       "estimated": false,
@@ -7811,7 +7811,7 @@ window.__SNAPSHOT__ = {
       "date": "2026-11-04",
       "value": 658,
       "residential": 658,
-      "total": 746,
+      "total": 747,
       "quality": "official",
       "totalQuality": "derived",
       "estimated": false,
@@ -7832,7 +7832,7 @@ window.__SNAPSHOT__ = {
       "date": "2026-11-05",
       "value": 627,
       "residential": 627,
-      "total": 711,
+      "total": 712,
       "quality": "official",
       "totalQuality": "derived",
       "estimated": false,
@@ -7853,7 +7853,7 @@ window.__SNAPSHOT__ = {
       "date": "2026-11-06",
       "value": 612,
       "residential": 612,
-      "total": 693,
+      "total": 695,
       "quality": "official",
       "totalQuality": "derived",
       "estimated": false,
@@ -8226,6 +8226,25 @@ window.__SNAPSHOT__ = {
       "weekendSum": null,
       "holiday": null,
       "makeupWorkday": false
+    },
+    {
+      "date": "2026-11-23",
+      "value": 630,
+      "residential": 630,
+      "total": 699,
+      "quality": "official",
+      "totalQuality": "official",
+      "estimated": false,
+      "sources": [
+        "zjw-archive"
+      ],
+      "weekend": false,
+      "singleDayKnown": false,
+      "unknownSplit": false,
+      "exactResidual": false,
+      "weekendSum": null,
+      "holiday": null,
+      "makeupWorkday": false
     }
   ],
   "months": {
@@ -8367,7 +8386,7 @@ window.__SNAPSHOT__ = {
       "month": "2026-11",
       "year": 2026,
       "monthNum": 11,
-      "total": 11706,
+      "total": 12411,
       "totalExact": false,
       "totalRatio": 0.8936
     }
@@ -8671,6 +8690,19 @@ window.__SNAPSHOT__ = {
       "xfResidentialArea": 1416.74,
       "source": "住建委（实时抓取）",
       "capturedAt": "2026-11-23T02:18:31.557Z"
+    },
+    {
+      "date": "2026-11-23",
+      "qfTotal": 57,
+      "qfResidential": 26,
+      "qfTotalArea": 3519.43,
+      "qfResidentialArea": 2763.41,
+      "xfTotal": 161,
+      "xfResidential": 56,
+      "xfTotalArea": 25699.8,
+      "xfResidentialArea": 6424.41,
+      "source": "住建委（实时抓取）",
+      "capturedAt": "2026-11-24T02:19:12.447Z"
     }
   ],
   "stocks": [
@@ -9017,6 +9049,21 @@ window.__SNAPSHOT__ = {
       "source": "住建委（实时抓取）",
       "note": null,
       "capturedAt": "2026-11-23T02:18:31.569Z",
+      "live": true
+    },
+    {
+      "date": "2026-11-23",
+      "qfStockTotal": 60758,
+      "qfStockResidential": 26842,
+      "qfStockTotalArea": 5449564.45,
+      "qfStockResidentialArea": 3856724.5,
+      "xfStockTotal": 210295,
+      "xfStockResidential": 25876,
+      "xfStockTotalArea": 11012593.87,
+      "xfStockResidentialArea": 3224380.62,
+      "source": "住建委（实时抓取）",
+      "note": null,
+      "capturedAt": "2026-11-24T02:19:12.456Z",
       "live": true
     }
   ],
@@ -9907,12 +9954,12 @@ window.__SNAPSHOT__ = {
   "quality": {
     "range": {
       "from": "2025-11-10",
-      "to": "2026-11-22"
+      "to": "2026-11-23"
     },
-    "rebuiltAt": "2026-11-23T15:04:49.307Z",
+    "rebuiltAt": "2026-11-24T02:19:15.732Z",
     "counts": {
-      "total": 378,
-      "official": 326,
+      "total": 379,
+      "official": 327,
       "exact": 38,
       "derived": 14,
       "estimated": 0
@@ -10073,11 +10120,11 @@ window.__SNAPSHOT__ = {
       },
       {
         "month": "2026-11",
-        "days": 22,
-        "weekdays": 15,
+        "days": 23,
+        "weekdays": 16,
         "estimated": 0,
         "derived": 0,
-        "sum": 10460,
+        "sum": 11090,
         "official": null,
         "deviation": null,
         "missingWeekdays": 0,
@@ -10178,8 +10225,8 @@ window.__SNAPSHOT__ = {
         "source": "住建委月统计（实时抓取）"
       },
       "2026-11": {
-        "total": 11706,
-        "residential": 10460,
+        "total": 12411,
+        "residential": 11090,
         "ratio": 0.8936,
         "exact": false,
         "source": "按当月住宅占网签总量比例推算"
