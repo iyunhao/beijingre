@@ -4928,11 +4928,14 @@
       "total": 706,
       "quality": "official",
       "sources": [
-        "zjw-archive"
+        "zjw-archive",
+        "history-archive",
+        "zjw"
       ],
       "officialCapture": true,
-      "totalQuality": "official"
+      "totalQuality": "official",
+      "archived": true
     }
   },
-  "updatedAt": "2026-11-25T02:22:57.876Z"
+  "updatedAt": "2026-11-25T15:07:51.053Z"
 }
