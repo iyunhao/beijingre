@@ -1,6 +1,6 @@
 {
   "readme": "可售期房统计/未签约现房统计「其中住宅套数」历史锚点。住建委只公示当前快照，历史逐日值无法回补；本文件为网页存档与页面静态快照中的稀疏真实锚点，此后由每日采集逐日累积（见 server/src/stocks.js）。空白日期代表未采集，不是 0。",
-  "updatedAt": "2026-11-26T02:21:49.093Z",
+  "updatedAt": "2026-11-27T02:23:19.609Z",
   "records": [
     {
       "date": "2020-01-14",
@@ -370,6 +370,20 @@
       "source": "住建委（实时抓取）",
       "note": null,
       "capturedAt": "2026-11-26T02:21:49.092Z"
+    },
+    {
+      "date": "2026-11-26",
+      "qfStockTotal": 59116,
+      "qfStockResidential": 26150,
+      "qfStockTotalArea": 5365186.89,
+      "qfStockResidentialArea": 3785427.8,
+      "xfStockTotal": 210442,
+      "xfStockResidential": 25897,
+      "xfStockTotalArea": 11046031.6,
+      "xfStockResidentialArea": 3227579.11,
+      "source": "住建委（实时抓取）",
+      "note": null,
+      "capturedAt": "2026-11-27T02:23:19.609Z"
     }
   ]
 }
