@@ -161,20 +161,24 @@
       "residential": 697,
       "quality": "exact",
       "sources": [
-        "fangshi-daily"
+        "fangshi-daily",
+        "history-archive"
       ],
       "total": 779,
-      "totalQuality": "derived"
+      "totalQuality": "derived",
+      "archived": true
     },
     "2025-11-28": {
       "date": "2025-11-28",
       "residential": 812,
       "quality": "exact",
       "sources": [
-        "fangshi-daily"
+        "fangshi-daily",
+        "history-archive"
       ],
       "total": 907,
-      "totalQuality": "derived"
+      "totalQuality": "derived",
+      "archived": true
     },
     "2025-12-01": {
       "date": "2025-12-01",
@@ -3046,7 +3050,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 625,
+      "total": 621,
       "totalQuality": "derived"
     },
     "2026-11-03": {
@@ -3059,7 +3063,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 600,
+      "total": 595,
       "totalQuality": "derived"
     },
     "2026-11-04": {
@@ -3072,7 +3076,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 753,
+      "total": 748,
       "totalQuality": "derived"
     },
     "2026-11-05": {
@@ -3085,7 +3089,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 718,
+      "total": 713,
       "totalQuality": "derived"
     },
     "2026-11-06": {
@@ -3098,7 +3102,7 @@
         "official-table"
       ],
       "officialTable": true,
-      "total": 701,
+      "total": 695,
       "totalQuality": "derived"
     },
     "2026-11-08": {
@@ -4968,14 +4972,29 @@
     "2026-11-26": {
       "date": "2026-11-26",
       "residential": 690,
-      "total": 761,
       "quality": "official",
       "sources": [
+        "fangshi-daily",
+        "zjw",
         "zjw-archive"
       ],
+      "total": 761,
+      "officialCapture": true,
+      "totalQuality": "official",
+      "archived": true
+    },
+    "2026-11-27": {
+      "date": "2026-11-27",
+      "residential": 684,
+      "quality": "official",
+      "sources": [
+        "fangshi-daily",
+        "zjw-archive"
+      ],
+      "total": 790,
       "officialCapture": true,
       "totalQuality": "official"
     }
   },
-  "updatedAt": "2026-11-27T02:23:23.079Z"
+  "updatedAt": "2026-11-28T02:19:41.489Z"
 }
